@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Preserve exact fetched bytes, including source whitespace and line endings.
+data/raw/** -text -diff
+data/** linguist-generated=true

@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "parserVersion": "1.0.0",
+  "source": "https://yuc.wiki/",
+  "attribution": {
+    "author": "長門有C",
+    "site": "長門番堂 / Yuc's Anime List",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "discoveryMethod": "all archive pagination pages, homepage post links, article body and adjacent-post links",
+  "discoveredUrls": [
+    "https://yuc.wiki/201910/",
+    "https://yuc.wiki/202001/",
+    "https://yuc.wiki/202004/",
+    "https://yuc.wiki/202007/",
+    "https://yuc.wiki/202010/",
+    "https://yuc.wiki/202101/",
+    "https://yuc.wiki/202104/",
+    "https://yuc.wiki/202107/",
+    "https://yuc.wiki/202110/",
+    "https://yuc.wiki/202201/",
+    "https://yuc.wiki/202204/",
+    "https://yuc.wiki/202207/",
+    "https://yuc.wiki/202210/",
+    "https://yuc.wiki/202301/",
+    "https://yuc.wiki/202304/",
+    "https://yuc.wiki/202307/",
+    "https://yuc.wiki/202310/",
+    "https://yuc.wiki/202401/",
+    "https://yuc.wiki/202404/",
+    "https://yuc.wiki/202407/",
+    "https://yuc.wiki/202410/",
+    "https://yuc.wiki/202501/",
+    "https://yuc.wiki/202504/",
+    "https://yuc.wiki/202507/",
+    "https://yuc.wiki/202510/",
+    "https://yuc.wiki/202601/",
+    "https://yuc.wiki/202604/",
+    "https://yuc.wiki/202607/",
+    "https://yuc.wiki/202610/",
+    "https://yuc.wiki/index/",
+    "https://yuc.wiki/movie/",
+    "https://yuc.wiki/new/",
+    "https://yuc.wiki/sp/"
+  ],
+  "discovery": [
+    {
+      "path": "raw/discovery/archives-2.html",
+      "sha256": "0f072a422fe52317b798a302adae87fa3264b490fc57ffdc5d3b050308af391f",
+      "url": "https://yuc.wiki/archives/page/2/",
+      "httpStatus": 200,
+      "retrievedAt": "2026-09-18T02:26:46+00:00",
+      "etag": "\"6aa84f0e-4c36\"",
+      "lastModified": "Mon, 14 Sep 2026 19:46:22 GMT",
+      "contentType": "text/html; charset=utf-8",
+      "transport": {
+        "tlsVerified": true,
+        "route": "github-pages",
+        "connectAddress": "185.199.108.153"
+      }
+    },
+    {
+      "path": "raw/discovery/archives-3.html",
+      "sha256": "b5009c7ba36457252308119d073ad9852bbaa4d6e1e683b09ad4d2e7be2a9015",
+      "url": "https://yuc.wiki/archives/page/4/",
+      "httpStatus": 200,
+      "retrievedAt": "2026-09-18T02:26:47+00:00",
+      "etag": "\"6aa84f0e-3dbd\"",
+      "lastModified": "Mon, 14 Sep 2026 19:46:22 GMT",
+      "contentType": "text/html; charset=utf-8",
+      "transport": {
+        "tlsVerified": true,
+        "route": "github-pages",
+        "connectAddress": "185.199.108.153"
+      }
+    },
+    {
+      "path": "raw/discovery/archives-4.html",
+      "sha256": "9a99f0068b51102135ba2070ea647353039980f026b103aee6061f5d4cd365ea",
+      "url": "https://yuc.wiki/archives/page/3/",
+      "httpStatus": 200,
+      "retrievedAt": "2026-09-18T02:26:47+00:00",
+      "etag": "\"6aa84f0e-4c3e\"",
+      "lastModified": "Mon, 14 Sep 2026 19:46:22 GMT",
+      "contentType": "text/html; charset=utf-8",
+      "transport": {
+        "tlsVerified": true,
+        "route": "github-pages",
+        "connectAddress": "185.199.108.153"
+      }
+    },
+    {
+      "path": "raw/discovery/archives.html",
+      "sha256": "bdcb70d96ff2f7c54ae8e7f099edffea7413eecf042caea3964f36c33e9511bd",
+      "url": "https://yuc.wiki/archives/",
+      "httpStatus": 200,
+      "retrievedAt": "2026-09-18T02:26:46+00:00",
+      "etag": "\"6aa84f0e-4bb3\"",
+      "lastModified": "Mon, 14 Sep 2026 19:46:22 GMT",
+      "contentType": "text/html; charset=utf-8",
+      "transport": {
+        "tlsVerified": true,
+        "route": "github-pages",
+        "connectAddress": "185.199.108.153"
+      }
+    },
+    {
+      "path": "raw/discovery/homepage.html",
+      "sha256": "11f4d786cd429168a990408fb868afb886cca4c7c72ec25cc6e003300b4be987",
+      "url": "https://yuc.wiki/",
+      "httpStatus": 200,
+      "retrievedAt": "2026-09-18T02:26:45+00:00",
+      "etag": "\"6aa84f0e-6f95\"",
+      "lastModified": "Mon, 14 Sep 2026 19:46:22 GMT",
+      "contentType": "text/html; charset=utf-8",
+      "transport": {
+        "tlsVerified": true,
+        "route": "github-pages",
+        "connectAddress": "185.199.108.153"
+      }
+    },
+    {
+      "path": "raw/discovery/robots.txt",
+      "sha256": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368",
+      "url": "https://yuc.wiki/robots.txt",
+      "httpStatus": 404,
+      "retrievedAt": "2026-09-18T02:26:44+00:00",
+      "etag": "\"6aac0af2-24a3\"",
+      "lastModified": null,
+      "contentType": "text/html; charset=utf-8",
+      "transport": {
+        "tlsVerified": true,
+        "route": "dns",
+        "connectAddress": null
+      }
+    }
+  ],
+  "pages": [
+    {
+      "pageId": "201910",
+      "url": "https://yuc.wiki/201910/",
+      "pageType": "quarter",
+      "title": "2019年10月新番表",
+      "jsonPath": "pages/201910.json",
+      "rawHtmlPath": "raw/201910.html",
+      "htmlSha256": "9cc8e7ed072bf95de1c70552b10f7ae8d6b9c5186edc66427e014c0a933d86d1",
+      "counts": {
+        "introductions": 52,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202001",
+      "url": "https://yuc.wiki/202001/",
+      "pageType": "quarter",
+      "title": "2020年1月新番表",
+      "jsonPath": "pages/202001.json",
+      "rawHtmlPath": "raw/202001.html",
+      "htmlSha256": "c03bab831bca09253340a340d8380debf418408f80af477681311622d83160d1",
+      "counts": {
+        "introductions": 51,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202004",
+      "url": "https://yuc.wiki/202004/",
+      "pageType": "quarter",
+      "title": "2020年4月新番表",
+      "jsonPath": "pages/202004.json",
+      "rawHtmlPath": "raw/202004.html",
+      "htmlSha256": "706da6fb18b5e76389e54020acc42e6f035dcaaec7b47538ab542c2ff9d5af65",
+      "counts": {
+        "introductions": 51,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202007",
+      "url": "https://yuc.wiki/202007/",
+      "pageType": "quarter",
+      "title": "2020年7月新番表",
+      "jsonPath": "pages/202007.json",
+      "rawHtmlPath": "raw/202007.html",
+      "htmlSha256": "c96019d8cce200b66d4f9eee9c5354af128c30880425e95276391940ad80a09c",
+      "counts": {
+        "introductions": 22,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202010",
+      "url": "https://yuc.wiki/202010/",
+      "pageType": "quarter",
+      "title": "2020年10月新番表",
+      "jsonPath": "pages/202010.json",
+      "rawHtmlPath": "raw/202010.html",
+      "htmlSha256": "8a549e7ced18e4e27a65526b8a571e2f2137da3a87fede2cc5204f8199994d7d",
+      "counts": {
+        "introductions": 45,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202101",
+      "url": "https://yuc.wiki/202101/",
+      "pageType": "quarter",
+      "title": "2021年1月新番表",
+      "jsonPath": "pages/202101.json",
+      "rawHtmlPath": "raw/202101.html",
+      "htmlSha256": "b7e783f1fef5132fc0a63d7b5ef86a9e0b2ffc574a7b20b62e10a48bd802000c",
+      "counts": {
+        "introductions": 55,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202104",
+      "url": "https://yuc.wiki/202104/",
+      "pageType": "quarter",
+      "title": "2021年4月新番表",
+      "jsonPath": "pages/202104.json",
+      "rawHtmlPath": "raw/202104.html",
+      "htmlSha256": "189ceab2910b37e79c6a974bd4cccdd824c24d5134997db2e5ca5848b7d908e8",
+      "counts": {
+        "introductions": 64,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202107",
+      "url": "https://yuc.wiki/202107/",
+      "pageType": "quarter",
+      "title": "2021年7月新番表",
+      "jsonPath": "pages/202107.json",
+      "rawHtmlPath": "raw/202107.html",
+      "htmlSha256": "77697fb32cdbd1cba92e1007f10bf0c0e16beb125f4cb08502946b1192297b3e",
+      "counts": {
+        "introductions": 40,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202110",
+      "url": "https://yuc.wiki/202110/",
+      "pageType": "quarter",
+      "title": "2021年10月新番表",
+      "jsonPath": "pages/202110.json",
+      "rawHtmlPath": "raw/202110.html",
+      "htmlSha256": "46221d52ac2e262399a74d0c22f8d0ba8284d1b45038dd794341bef7b9dd76ad",
+      "counts": {
+        "introductions": 53,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202201",
+      "url": "https://yuc.wiki/202201/",
+      "pageType": "quarter",
+      "title": "2022年1月新番表",
+      "jsonPath": "pages/202201.json",
+      "rawHtmlPath": "raw/202201.html",
+      "htmlSha256": "16f877847475ed4c6ac98a94823f99c9ce33e1c2d3e26266b5403e939413a45e",
+      "counts": {
+        "introductions": 45,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202204",
+      "url": "https://yuc.wiki/202204/",
+      "pageType": "quarter",
+      "title": "2022年4月新番表",
+      "jsonPath": "pages/202204.json",
+      "rawHtmlPath": "raw/202204.html",
+      "htmlSha256": "4e305e683c668cbe29a53b07c70f63381927d72abc205f6bd3168b96093c74a0",
+      "counts": {
+        "introductions": 57,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202207",
+      "url": "https://yuc.wiki/202207/",
+      "pageType": "quarter",
+      "title": "2022年7月新番表",
+      "jsonPath": "pages/202207.json",
+      "rawHtmlPath": "raw/202207.html",
+      "htmlSha256": "2e3bd7ec39e06f5729934b0b8740052f63f4543214acdf05b2927f2e92c332d8",
+      "counts": {
+        "introductions": 50,
+        "lineup": 50,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202210",
+      "url": "https://yuc.wiki/202210/",
+      "pageType": "quarter",
+      "title": "2022年10月新番表",
+      "jsonPath": "pages/202210.json",
+      "rawHtmlPath": "raw/202210.html",
+      "htmlSha256": "1af043d4defe873009325042f3d68a2cbc5b25bc8980eaf5e28229ede7d9c2c8",
+      "counts": {
+        "introductions": 57,
+        "lineup": 56,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202301",
+      "url": "https://yuc.wiki/202301/",
+      "pageType": "quarter",
+      "title": "2023年1月新番表",
+      "jsonPath": "pages/202301.json",
+      "rawHtmlPath": "raw/202301.html",
+      "htmlSha256": "00b76439ae74f831da0562d439251ad3a7fcd89cd1d23367cd77c07135b0f1f2",
+      "counts": {
+        "introductions": 62,
+        "lineup": 59,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202304",
+      "url": "https://yuc.wiki/202304/",
+      "pageType": "quarter",
+      "title": "2023年4月新番表",
+      "jsonPath": "pages/202304.json",
+      "rawHtmlPath": "raw/202304.html",
+      "htmlSha256": "f2ac96787d5179740de403bffe95a0953265c7d4f7091d9f477724bc37dc5cad",
+      "counts": {
+        "introductions": 53,
+        "lineup": 53,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202307",
+      "url": "https://yuc.wiki/202307/",
+      "pageType": "quarter",
+      "title": "2023年7月新番表",
+      "jsonPath": "pages/202307.json",
+      "rawHtmlPath": "raw/202307.html",
+      "htmlSha256": "b567395b98dd465af75abc79f99f099f14e35521a06a6e3e79b05e3aca51a1f1",
+      "counts": {
+        "introductions": 53,
+        "lineup": 52,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202310",
+      "url": "https://yuc.wiki/202310/",
+      "pageType": "quarter",
+      "title": "2023年10月新番表",
+      "jsonPath": "pages/202310.json",
+      "rawHtmlPath": "raw/202310.html",
+      "htmlSha256": "c502e809eeefd7e960dd6f75db71d61234f6b17adda14a0445a463b324ddc135",
+      "counts": {
+        "introductions": 76,
+        "lineup": 78,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202401",
+      "url": "https://yuc.wiki/202401/",
+      "pageType": "quarter",
+      "title": "2024年1月新番表",
+      "jsonPath": "pages/202401.json",
+      "rawHtmlPath": "raw/202401.html",
+      "htmlSha256": "56c2d2bdde3b955c15646464dced27f856275bbfeb11fa62b99c87aff8a78a25",
+      "counts": {
+        "introductions": 52,
+        "lineup": 61,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202404",
+      "url": "https://yuc.wiki/202404/",
+      "pageType": "quarter",
+      "title": "2024年4月新番表",
+      "jsonPath": "pages/202404.json",
+      "rawHtmlPath": "raw/202404.html",
+      "htmlSha256": "224db624f3bab1f5d55f5255adb6066352d5b3ea0da67f9cb025421b1b1b9313",
+      "counts": {
+        "introductions": 62,
+        "lineup": 61,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202407",
+      "url": "https://yuc.wiki/202407/",
+      "pageType": "quarter",
+      "title": "2024年7月新番表",
+      "jsonPath": "pages/202407.json",
+      "rawHtmlPath": "raw/202407.html",
+      "htmlSha256": "d38db0c2429597afd41ce6c2332b3ef6ce0d3c7244bbc8468c3ee42d7c4e2374",
+      "counts": {
+        "introductions": 55,
+        "lineup": 61,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202410",
+      "url": "https://yuc.wiki/202410/",
+      "pageType": "quarter",
+      "title": "2024年10月新番表",
+      "jsonPath": "pages/202410.json",
+      "rawHtmlPath": "raw/202410.html",
+      "htmlSha256": "e5ca0b986707999afdcb9f6ba54821e23ff27af69129a75748778e5500d6d188",
+      "counts": {
+        "introductions": 69,
+        "lineup": 75,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202501",
+      "url": "https://yuc.wiki/202501/",
+      "pageType": "quarter",
+      "title": "2025年1月新番表",
+      "jsonPath": "pages/202501.json",
+      "rawHtmlPath": "raw/202501.html",
+      "htmlSha256": "7e333227bb29d9d7234304e99c3a791d448c8adecfe9fc8c5e599a9de10ee968",
+      "counts": {
+        "introductions": 54,
+        "lineup": 65,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202504",
+      "url": "https://yuc.wiki/202504/",
+      "pageType": "quarter",
+      "title": "2025年4月新番表",
+      "jsonPath": "pages/202504.json",
+      "rawHtmlPath": "raw/202504.html",
+      "htmlSha256": "ca18ed4de21cecbc320414254b895d238610f819014d7def543fe435ccc327af",
+      "counts": {
+        "introductions": 66,
+        "lineup": 70,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202507",
+      "url": "https://yuc.wiki/202507/",
+      "pageType": "quarter",
+      "title": "2025年7月新番表",
+      "jsonPath": "pages/202507.json",
+      "rawHtmlPath": "raw/202507.html",
+      "htmlSha256": "faf7ed7719746fb294e646e04b5e7b4786a7ccd57921a52134f90cb113351d3a",
+      "counts": {
+        "introductions": 67,
+        "lineup": 74,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202510",
+      "url": "https://yuc.wiki/202510/",
+      "pageType": "quarter",
+      "title": "2025年10月新番表",
+      "jsonPath": "pages/202510.json",
+      "rawHtmlPath": "raw/202510.html",
+      "htmlSha256": "604b44eda84d5dcc2e9e1145368e09fbc02b3d34dca5b7423d832f034f9d4f75",
+      "counts": {
+        "introductions": 61,
+        "lineup": 66,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202601",
+      "url": "https://yuc.wiki/202601/",
+      "pageType": "quarter",
+      "title": "2026年1月新番表",
+      "jsonPath": "pages/202601.json",
+      "rawHtmlPath": "raw/202601.html",
+      "htmlSha256": "04a59e0297572f88b93419e34592af276d54fd38503dad88b224f42b6e169d00",
+      "counts": {
+        "introductions": 60,
+        "lineup": 67,
+        "previews": 8,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202604",
+      "url": "https://yuc.wiki/202604/",
+      "pageType": "quarter",
+      "title": "2026年4月新番表",
+      "jsonPath": "pages/202604.json",
+      "rawHtmlPath": "raw/202604.html",
+      "htmlSha256": "d6373fc879f48bdce6b8ff5a3d166f2fabcc5bb61381240df00667d5d6e8ccd3",
+      "counts": {
+        "introductions": 70,
+        "lineup": 74,
+        "previews": 4,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202607",
+      "url": "https://yuc.wiki/202607/",
+      "pageType": "quarter",
+      "title": "2026年7月新番表",
+      "jsonPath": "pages/202607.json",
+      "rawHtmlPath": "raw/202607.html",
+      "htmlSha256": "3fe01853ad657e967c6b4e4f041d0d2b9e15fccf4b77409b2c086e8e72f65437",
+      "counts": {
+        "introductions": 66,
+        "lineup": 80,
+        "previews": 7,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "202610",
+      "url": "https://yuc.wiki/202610/",
+      "pageType": "quarter",
+      "title": "2026年10月新番表",
+      "jsonPath": "pages/202610.json",
+      "rawHtmlPath": "raw/202610.html",
+      "htmlSha256": "6f31f292862586d281bc03f35b27100d7940ffb8255b7b2d8be439616095187a",
+      "counts": {
+        "introductions": 68,
+        "lineup": 0,
+        "previews": 5,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "index",
+      "url": "https://yuc.wiki/index/",
+      "pageType": "index",
+      "title": "長門番堂\nYuc's Anime List",
+      "jsonPath": "pages/index.json",
+      "rawHtmlPath": "raw/index.html",
+      "htmlSha256": "49910521020aca10f35570711b9ced6b9389ec6bfde395d8b68c6f8f6473f868",
+      "counts": {
+        "introductions": 0,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "movie",
+      "url": "https://yuc.wiki/movie/",
+      "pageType": "movie",
+      "title": "日本动画电影-内地院线档期",
+      "jsonPath": "pages/movie.json",
+      "rawHtmlPath": "raw/movie.html",
+      "htmlSha256": "bbc2c0d9d65720c720f80677502ef26dfdd2bdc797e7b1d5f796bc13c8d6367b",
+      "counts": {
+        "introductions": 0,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 0,
+        "movies": 76
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "new",
+      "url": "https://yuc.wiki/new/",
+      "pageType": "upcoming",
+      "title": "新番卫星观测站",
+      "jsonPath": "pages/new.json",
+      "rawHtmlPath": "raw/new.html",
+      "htmlSha256": "dc001cb4bb0519a909aa9675c35270461671164a919f4265a6c340052e7ba24b",
+      "counts": {
+        "introductions": 0,
+        "lineup": 0,
+        "previews": 167,
+        "specials": 0,
+        "movies": 0
+      },
+      "warnings": []
+    },
+    {
+      "pageId": "sp",
+      "url": "https://yuc.wiki/sp/",
+      "pageType": "special",
+      "title": "Movie/OVA/OAD/SP etc.",
+      "jsonPath": "pages/sp.json",
+      "rawHtmlPath": "raw/sp.html",
+      "htmlSha256": "59d31f5239481355bb3378f7f4114b2f6eb2b0af064b09179be42f2864d000c6",
+      "counts": {
+        "introductions": 0,
+        "lineup": 0,
+        "previews": 0,
+        "specials": 347,
+        "movies": 0
+      },
+      "warnings": []
+    }
+  ],
+  "totals": {
+    "introductions": 1636,
+    "lineup": 1102,
+    "previews": 191,
+    "specials": 347,
+    "movies": 76
+  }
+}

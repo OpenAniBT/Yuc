@@ -1,0 +1,968 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/AniBT-Net/Yuc/blob/main/schemas/page.schema.json",
+  "title": "Yuc archived article",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "parserVersion",
+    "source",
+    "title",
+    "metadata",
+    "content",
+    "introductions",
+    "lineup",
+    "previews",
+    "specials",
+    "movies",
+    "tables",
+    "quality"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "parserVersion": {
+      "const": "1.0.0"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "url",
+        "pageId",
+        "pageType",
+        "quarterCode",
+        "rawHtmlPath",
+        "htmlSha256",
+        "retrievedAt",
+        "httpStatus",
+        "etag",
+        "lastModified",
+        "contentType",
+        "transport"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https://yuc\\.wiki/"
+        },
+        "pageId": {
+          "type": "string"
+        },
+        "pageType": {
+          "enum": [
+            "quarter",
+            "index",
+            "upcoming",
+            "special",
+            "movie",
+            "article"
+          ]
+        },
+        "quarterCode": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "rawHtmlPath": {
+          "type": "string"
+        },
+        "htmlSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "retrievedAt": {
+          "type": "string"
+        },
+        "httpStatus": {
+          "const": 200
+        },
+        "etag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lastModified": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contentType": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "transport": {
+          "type": "object",
+          "required": [
+            "tlsVerified",
+            "route",
+            "connectAddress"
+          ],
+          "properties": {
+            "tlsVerified": {
+              "const": true
+            },
+            "route": {
+              "enum": [
+                "dns",
+                "github-pages"
+              ]
+            },
+            "connectAddress": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "metadata": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": [
+        "text",
+        "html",
+        "links",
+        "images"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "html": {
+          "type": "string"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "introductions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recordId",
+          "sourceMarker",
+          "titles",
+          "adaptation",
+          "tags",
+          "staff",
+          "cast",
+          "studios",
+          "cover",
+          "officialSites",
+          "promotionalVideos",
+          "broadcast",
+          "broadcastNotes",
+          "linkAreaText",
+          "platforms",
+          "links",
+          "raw"
+        ],
+        "properties": {
+          "recordId": {
+            "type": "string"
+          },
+          "sourceMarker": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "titles": {
+            "type": "object",
+            "required": [
+              "chinese",
+              "original"
+            ],
+            "properties": {
+              "chinese": {
+                "$ref": "#/$defs/textField"
+              },
+              "original": {
+                "$ref": "#/$defs/textField"
+              }
+            },
+            "additionalProperties": false
+          },
+          "adaptation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "tags": {
+            "type": "object",
+            "required": [
+              "text",
+              "lines",
+              "values"
+            ],
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "values": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "staff": {
+            "type": "object",
+            "required": [
+              "text",
+              "lines",
+              "credits"
+            ],
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "credits": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "role",
+                    "namesText"
+                  ],
+                  "properties": {
+                    "role": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "namesText": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "cast": {
+            "$ref": "#/$defs/textField"
+          },
+          "studios": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cover": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/image"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "officialSites": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/link"
+            }
+          },
+          "promotionalVideos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/link"
+            }
+          },
+          "broadcast": {
+            "$ref": "#/$defs/textField"
+          },
+          "broadcastNotes": {
+            "$ref": "#/$defs/textField"
+          },
+          "linkAreaText": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "platforms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/platform"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/link"
+            }
+          },
+          "raw": {
+            "type": "object",
+            "required": [
+              "text",
+              "html"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "html": {
+                "type": "string"
+              },
+              "cells": {
+                "type": "array"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "lineup": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recordId",
+          "title",
+          "group",
+          "statusOrTime",
+          "episodeNotes",
+          "notes",
+          "extraNotes",
+          "cover",
+          "platforms",
+          "raw"
+        ],
+        "properties": {
+          "recordId": {
+            "type": "string"
+          },
+          "title": {
+            "$ref": "#/$defs/textField"
+          },
+          "group": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "statusOrTime": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "episodeNotes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "extraNotes": {
+            "$ref": "#/$defs/textField"
+          },
+          "cover": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/image"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "platforms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/platform"
+            }
+          },
+          "raw": {
+            "type": "object",
+            "required": [
+              "text",
+              "html"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "html": {
+                "type": "string"
+              },
+              "cells": {
+                "type": "array"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "previews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recordId",
+          "title",
+          "format",
+          "release",
+          "boxOffice",
+          "images",
+          "links",
+          "raw"
+        ],
+        "properties": {
+          "recordId": {
+            "type": "string"
+          },
+          "title": {
+            "$ref": "#/$defs/textField"
+          },
+          "format": {
+            "$ref": "#/$defs/textField"
+          },
+          "release": {
+            "$ref": "#/$defs/textField"
+          },
+          "boxOffice": {
+            "$ref": "#/$defs/textField"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/image"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/link"
+            }
+          },
+          "raw": {
+            "type": "object",
+            "required": [
+              "text",
+              "html"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "html": {
+                "type": "string"
+              },
+              "cells": {
+                "type": "array"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "specials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recordId",
+          "title",
+          "format",
+          "release",
+          "boxOffice",
+          "images",
+          "links",
+          "raw"
+        ],
+        "properties": {
+          "recordId": {
+            "type": "string"
+          },
+          "title": {
+            "$ref": "#/$defs/textField"
+          },
+          "format": {
+            "$ref": "#/$defs/textField"
+          },
+          "release": {
+            "$ref": "#/$defs/textField"
+          },
+          "boxOffice": {
+            "$ref": "#/$defs/textField"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/image"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/link"
+            }
+          },
+          "raw": {
+            "type": "object",
+            "required": [
+              "text",
+              "html"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "html": {
+                "type": "string"
+              },
+              "cells": {
+                "type": "array"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "movies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recordId",
+          "title",
+          "format",
+          "release",
+          "boxOffice",
+          "images",
+          "links",
+          "raw"
+        ],
+        "properties": {
+          "recordId": {
+            "type": "string"
+          },
+          "title": {
+            "$ref": "#/$defs/textField"
+          },
+          "format": {
+            "$ref": "#/$defs/textField"
+          },
+          "release": {
+            "$ref": "#/$defs/textField"
+          },
+          "boxOffice": {
+            "$ref": "#/$defs/textField"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/image"
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/link"
+            }
+          },
+          "raw": {
+            "type": "object",
+            "required": [
+              "text",
+              "html"
+            ],
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "html": {
+                "type": "string"
+              },
+              "cells": {
+                "type": "array"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tables": {
+      "type": "array"
+    },
+    "quality": {
+      "type": "object",
+      "required": [
+        "introductionCount",
+        "lineupCount",
+        "previewCount",
+        "specialCount",
+        "movieCount",
+        "claimedIntroductionCounts",
+        "warnings"
+      ],
+      "properties": {
+        "introductionCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "lineupCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "previewCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "specialCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "movieCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "claimedIntroductionCounts": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "textField": {
+      "type": "object",
+      "required": [
+        "text",
+        "lines"
+      ],
+      "properties": {
+        "text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "lines": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "url",
+        "src",
+        "dataSrc",
+        "alt",
+        "title"
+      ],
+      "properties": {
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "src": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dataSrc": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "srcset": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "link": {
+      "type": "object",
+      "required": [
+        "text",
+        "href",
+        "url",
+        "title",
+        "images"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "href": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "src",
+              "dataSrc",
+              "alt",
+              "title"
+            ],
+            "properties": {
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "src": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "dataSrc": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "alt": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "title": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "srcset": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "platform": {
+      "type": "object",
+      "required": [
+        "label",
+        "url",
+        "href",
+        "host",
+        "images"
+      ],
+      "properties": {
+        "label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "href": {
+          "type": "string"
+        },
+        "host": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "src",
+              "dataSrc",
+              "alt",
+              "title"
+            ],
+            "properties": {
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "src": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "dataSrc": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "alt": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "title": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "srcset": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
