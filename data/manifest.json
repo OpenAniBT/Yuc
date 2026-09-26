@@ -44,6 +44,8 @@
     "https://yuc.wiki/new/",
     "https://yuc.wiki/sp/"
   ],
+  "pendingUrls": [],
+  "retainedUrls": [],
   "discovery": [
     {
       "path": "raw/discovery/archives-2.html",
@@ -136,6 +138,7 @@
       }
     }
   ],
+  "statusPath": "status.json",
   "pages": [
     {
       "pageId": "201910",
