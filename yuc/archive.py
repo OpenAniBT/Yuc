@@ -10,12 +10,13 @@ from pathlib import Path
 import tempfile
 from urllib.robotparser import RobotFileParser
 
+from bs4 import BeautifulSoup
 from jsonschema import Draft202012Validator
 
 from . import PARSER_VERSION, SCHEMA_VERSION
 from .discovery import BASE, discover, linked_articles, page_id, page_kind
 from .fetch import Fetcher
-from .parser import parse_page
+from .parser import class_has, parse_page, text
 
 COLLECTIONS = ("introductions", "lineup", "previews", "specials", "movies")
 SCHEMA_PATH = Path(__file__).resolve().parent.parent / "schemas" / "page.schema.json"
@@ -33,12 +34,35 @@ def sha(payload: bytes) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def validate_upcoming_source(document: dict, payload: bytes) -> None:
+    """A rolling announcements page can shrink; verify coverage of today's HTML."""
+    soup = BeautifulSoup(payload.decode("utf-8"), "html.parser")
+    body = soup.select_one('.post-body[itemprop="articleBody"]') or soup.select_one('.post-body')
+    article = body.find_parent('article') if body is not None else None
+    footer = article.select_one('.post-footer') if article is not None else None
+    if body is None or footer is None or body in footer.parents or body.find_next(class_='post-footer') is not footer:
+        raise ValueError(f"incomplete upcoming article: {document['source']['pageId']}")
+    cards = body.select('.future_div')
+    tables = body.find_all('table')
+    titles = body.find_all(lambda node: class_has(node, 'future_title'))
+    parsed = document['previews']
+    if (not cards or len(cards) != len(tables) or len(cards) != len(titles) or len(cards) != len(parsed)
+            or any('future_table' not in table.get('class', []) for table in tables)
+            or [text(title) for title in titles] != [entry['title']['text'] for entry in parsed]):
+        raise ValueError(
+            f"upcoming source coverage mismatch: {document['source']['pageId']} "
+            f"(cards={len(cards)}, tables={len(tables)}, titles={len(titles)}, parsed={len(parsed)})")
+
+
 def validate_document(document: dict, payload: bytes, previous: dict | None = None) -> None:
     Draft202012Validator(read_json(SCHEMA_PATH)).validate(document)
     if document["source"]["htmlSha256"] != sha(payload):
         raise ValueError(f"raw HTML checksum mismatch: {document['source']['pageId']}")
     if not document["source"]["transport"]["tlsVerified"]:
         raise ValueError("unverified TLS snapshot cannot be published")
+    upcoming = document['source']['pageType'] == 'upcoming'
+    if upcoming:
+        validate_upcoming_source(document, payload)
     ids = [entry["recordId"] for name in COLLECTIONS for entry in document[name]]
     if len(ids) != len(set(ids)):
         raise ValueError(f"duplicate source record IDs: {document['source']['pageId']}")
@@ -47,7 +71,8 @@ def validate_document(document: dict, payload: bytes, previous: dict | None = No
             title = entry["titles"]["chinese"] if name == "introductions" else entry["title"]
             if not title["text"]:
                 raise ValueError(f"missing title in {entry['recordId']}")
-        if previous and len(previous[name]) >= 10 and len(document[name]) < len(previous[name]) * 0.7:
+        if (previous and not (upcoming and name == 'previews')
+                and len(previous[name]) >= 10 and len(document[name]) < len(previous[name]) * 0.7):
             raise ValueError(f"suspicious {name} count drop: {document['source']['pageId']} (review parser/source before publishing)")
     if document["source"]["pageType"] == "quarter" and not document["introductions"]:
         raise ValueError(f"quarter has no introductions: {document['source']['pageId']}")
@@ -147,6 +172,7 @@ def sync(root: Path, *, full: bool = False, fetcher: Fetcher | None = None) -> d
     done = set()
     page_ids = set()
     network_changed = 0
+    source_changes = []
     while queue:
         url = queue.pop(0)
         if url in done:
@@ -176,6 +202,10 @@ def sync(root: Path, *, full: bool = False, fetcher: Fetcher | None = None) -> d
                       "quarterCode": slug if page_kind(slug) == "quarter" else None, "rawHtmlPath": raw_path}
         document = parse_page(payload, source)
         validate_document(document, payload, old)
+        if (old and source['pageType'] == 'upcoming'
+                and len(document['previews']) < len(old['previews'])):
+            source_changes.append({'pageId': slug, 'collection': 'previews',
+                                   'previousCount': len(old['previews']), 'currentCount': len(document['previews'])})
         staged[path] = json_bytes(document)
         staged[raw_path] = payload
         pages.append({"pageId": slug, "url": url, "pageType": source["pageType"], "title": document["title"],
@@ -225,5 +255,6 @@ def sync(root: Path, *, full: bool = False, fetcher: Fetcher | None = None) -> d
             os.replace(temporary, target)
             changed_files.append(path)
     report = {"completedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-              "full": full, "fetchedChangedPages": network_changed, "changedFiles": changed_files, **summary}
+              "full": full, "fetchedChangedPages": network_changed, "changedFiles": changed_files,
+              "sourceChanges": source_changes, **summary}
     return report

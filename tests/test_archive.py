@@ -73,6 +73,25 @@ class ArchiveTests(unittest.TestCase):
                 sync(root, fetcher=FakeFetcher(fail=True))
             self.assertEqual(before, {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()})
 
+    @patch('yuc.archive.discover', fake_discovery)
+    def test_historical_quarter_count_drop_is_still_rejected(self):
+        class QuarterFetcher(FakeFetcher):
+            def __init__(self, count):
+                super().__init__()
+                self.count = count
+
+            def get(self, url, **kwargs):
+                payload, info = super().get(url, **kwargs)
+                return (page(CARD * self.count) if info['httpStatus'] == 200 else payload), info
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / 'data'
+            sync(root, fetcher=QuarterFetcher(10))
+            before = {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()}
+            with self.assertRaisesRegex(ValueError, 'suspicious introductions count drop'):
+                sync(root, full=True, fetcher=QuarterFetcher(6))
+            self.assertEqual(before, {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()})
+
     def test_later_page_failure_does_not_publish_earlier_updates(self):
         class LaterFailure(FakeFetcher):
             def get(self, url, **kwargs):
