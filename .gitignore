@@ -8,3 +8,5 @@ reports/
 .env.*
 !.env.example
 .DS_Store
+
+.data.sync.lock

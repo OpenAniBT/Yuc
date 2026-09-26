@@ -1,248 +1,262 @@
-"""Validated, reproducible repository snapshots with all-or-nothing fetches."""
+"""Refresh independent pages, preserving validated snapshots when sources fail."""
 
 from __future__ import annotations
 
+from contextlib import contextmanager
 import datetime as dt
-import hashlib
+import fcntl
 import json
 import os
 from pathlib import Path
+import re
 import tempfile
+import time
 from urllib.robotparser import RobotFileParser
-
-from bs4 import BeautifulSoup
-from jsonschema import Draft202012Validator
 
 from . import PARSER_VERSION, SCHEMA_VERSION
 from .discovery import BASE, discover, linked_articles, page_id, page_kind
-from .fetch import Fetcher
-from .parser import class_has, parse_page, text
+from .fetch import Fetcher, FetchError
+from .health import build_status, discovery_outcome, failures, page_outcome, timestamp
+from .parser import parse_page
+# Keep the existing public imports for callers; validation has one offline owner.
+from .validation import COLLECTIONS, json_bytes, read_json, sha, validate_archive, validate_document
 
-COLLECTIONS = ("introductions", "lineup", "previews", "specials", "movies")
-SCHEMA_PATH = Path(__file__).resolve().parent.parent / "schemas" / "page.schema.json"
-
-
-def read_json(path: Path) -> dict:
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
-def json_bytes(value: dict) -> bytes:
-    return (json.dumps(value, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+CRAWL_BUDGET_SECONDS = 600
+REJECTED_BYTES_BUDGET = 16 * 1024 * 1024
 
 
-def sha(payload: bytes) -> str:
-    return hashlib.sha256(payload).hexdigest()
+@contextmanager
+def writer_lock(root: Path):
+    root.parent.mkdir(parents=True, exist_ok=True)
+    with (root.parent / f'.{root.name}.sync.lock').open('a') as lock:
+        try:
+            fcntl.flock(lock.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except BlockingIOError as exc:
+            raise RuntimeError('another synchronization owns this data directory') from exc
+        try:
+            yield
+        finally:
+            fcntl.flock(lock.fileno(), fcntl.LOCK_UN)
 
 
-def validate_upcoming_source(document: dict, payload: bytes) -> None:
-    """A rolling announcements page can shrink; verify coverage of today's HTML."""
-    soup = BeautifulSoup(payload.decode("utf-8"), "html.parser")
-    body = soup.select_one('.post-body[itemprop="articleBody"]') or soup.select_one('.post-body')
-    article = body.find_parent('article') if body is not None else None
-    footer = article.select_one('.post-footer') if article is not None else None
-    if body is None or footer is None or body in footer.parents or body.find_next(class_='post-footer') is not footer:
-        raise ValueError(f"incomplete upcoming article: {document['source']['pageId']}")
-    cards = body.select('.future_div')
-    tables = body.find_all('table')
-    titles = body.find_all(lambda node: class_has(node, 'future_title'))
-    parsed = document['previews']
-    if (not cards or len(cards) != len(tables) or len(cards) != len(titles) or len(cards) != len(parsed)
-            or any('future_table' not in table.get('class', []) for table in tables)
-            or [text(title) for title in titles] != [entry['title']['text'] for entry in parsed]):
-        raise ValueError(
-            f"upcoming source coverage mismatch: {document['source']['pageId']} "
-            f"(cards={len(cards)}, tables={len(tables)}, titles={len(titles)}, parsed={len(parsed)})")
+class CrawlBudget:
+    def __init__(self, fetcher):
+        self.fetcher = fetcher
+        self.deadline = time.monotonic() + CRAWL_BUDGET_SECONDS
+
+    def get(self, url, **kwargs):
+        if time.monotonic() >= self.deadline:
+            raise FetchError('run crawl budget exhausted; preserving previous snapshot')
+        return self.fetcher.get(url, **kwargs)
 
 
-def validate_document(document: dict, payload: bytes, previous: dict | None = None) -> None:
-    Draft202012Validator(read_json(SCHEMA_PATH)).validate(document)
-    if document["source"]["htmlSha256"] != sha(payload):
-        raise ValueError(f"raw HTML checksum mismatch: {document['source']['pageId']}")
-    if not document["source"]["transport"]["tlsVerified"]:
-        raise ValueError("unverified TLS snapshot cannot be published")
-    upcoming = document['source']['pageType'] == 'upcoming'
-    if upcoming:
-        validate_upcoming_source(document, payload)
-    ids = [entry["recordId"] for name in COLLECTIONS for entry in document[name]]
-    if len(ids) != len(set(ids)):
-        raise ValueError(f"duplicate source record IDs: {document['source']['pageId']}")
-    for name in COLLECTIONS:
-        for entry in document[name]:
-            title = entry["titles"]["chinese"] if name == "introductions" else entry["title"]
-            if not title["text"]:
-                raise ValueError(f"missing title in {entry['recordId']}")
-        if (previous and not (upcoming and name == 'previews')
-                and len(previous[name]) >= 10 and len(document[name]) < len(previous[name]) * 0.7):
-            raise ValueError(f"suspicious {name} count drop: {document['source']['pageId']} (review parser/source before publishing)")
-    if document["source"]["pageType"] == "quarter" and not document["introductions"]:
-        raise ValueError(f"quarter has no introductions: {document['source']['pageId']}")
-    if document["source"]["pageType"] == "upcoming" and not document["previews"]:
-        raise ValueError("upcoming page has no preview cards")
-    if document["source"]["pageType"] == "special" and not document["specials"]:
-        raise ValueError("special page has no cards")
-    if document["source"]["pageType"] == "movie" and not document["movies"]:
-        raise ValueError("movie page has no cards")
+def source_error(kind: str, exc: Exception) -> dict:
+    # Public source errors only; avoid unbounded HTML/tracebacks in durable state.
+    return {'kind': kind, 'message': f'{type(exc).__name__}: {exc}'[:1200]}
 
 
-def validate_archive(root: Path) -> dict:
-    manifest = read_json(root / "manifest.json")
-    if manifest["schemaVersion"] != SCHEMA_VERSION or manifest["parserVersion"] != PARSER_VERSION:
-        raise ValueError("manifest schema/parser version mismatch; run sync")
-    if len(manifest["pages"]) != len(manifest["discoveredUrls"]):
-        raise ValueError("manifest discovery coverage mismatch")
-    urls, ids = set(), set()
-    outgoing_urls = set()
-    totals = {name: 0 for name in COLLECTIONS}
-    for record in manifest["pages"]:
-        page_path = root / record["jsonPath"]
-        raw_path = root / record["rawHtmlPath"]
-        if not page_path.resolve().is_relative_to(root.resolve()) or not raw_path.resolve().is_relative_to(root.resolve()):
-            raise ValueError("archive path escapes data directory")
-        document = read_json(page_path)
-        payload = raw_path.read_bytes()
-        validate_document(document, payload)
-        source = document["source"]
-        if source["url"] != record["url"] or source["pageId"] != record["pageId"] or source["rawHtmlPath"] != record["rawHtmlPath"]:
-            raise ValueError("manifest and page source disagree")
-        if source["htmlSha256"] != record["htmlSha256"]:
-            raise ValueError("manifest checksum disagrees with page")
-        if source["url"] in urls or source["pageId"] in ids:
-            raise ValueError("duplicate page in manifest")
-        urls.add(source["url"]); ids.add(source["pageId"])
-        outgoing_urls.update(linked_articles(payload, source["url"]))
-        # Reparse offline: schema-valid but stale or hand-edited JSON is rejected.
-        if parse_page(payload, source) != document:
-            raise ValueError(f"JSON is not reproducible from its raw snapshot: {source['pageId']}")
-        counts = {name: len(document[name]) for name in COLLECTIONS}
-        if counts != record["counts"]:
-            raise ValueError("manifest record counts disagree with document")
-        for name in COLLECTIONS:
-            totals[name] += counts[name]
-    if urls != set(manifest["discoveredUrls"]) or totals != manifest["totals"]:
-        raise ValueError("manifest totals/discovery mismatch")
-    expected_paths = {record["jsonPath"] for record in manifest["pages"]}
-    actual_paths = {str(p.relative_to(root)) for p in (root / "pages").glob("*.json")}
-    if actual_paths != expected_paths:
-        raise ValueError("unindexed or missing JSON pages")
-    saved_discovery = {}
-    for evidence in manifest["discovery"]:
-        evidence_path = root / evidence["path"]
-        if not evidence_path.resolve().is_relative_to(root.resolve()):
-            raise ValueError("discovery evidence path escapes data directory")
-        payload = evidence_path.read_bytes()
-        if sha(payload) != evidence["sha256"]:
-            raise ValueError("discovery evidence checksum mismatch")
-        if evidence["url"] in saved_discovery:
-            raise ValueError("duplicate discovery URL")
-        saved_discovery[evidence["url"]] = (payload, evidence)
+class RejectedPages:
+    def __init__(self, report_dir: Path | None):
+        self.root = report_dir / 'rejected' if report_dir else None
+        self.remaining = REJECTED_BYTES_BUDGET
+        if self.root:
+            self.root.mkdir(parents=True, exist_ok=True)
+            owner = self.root / '.yuc-generated'
+            if owner.is_file() and owner.read_text() == 'yuc-rejected-v1\n':
+                for path in self.root.iterdir():
+                    if re.fullmatch(r'[0-9a-f]{20}\.(?:html|json)', path.name) and path.is_file():
+                        path.unlink()
+            owner.write_text('yuc-rejected-v1\n')
+
+    def save(self, url: str, payload: bytes | None, error: dict) -> None:
+        if self.root is None:
+            return
+        self.root.mkdir(parents=True, exist_ok=True)
+        key = sha(url.encode())[:20]
+        saved = payload is not None and len(payload) <= self.remaining
+        if saved:
+            (self.root / f'{key}.html').write_bytes(payload)
+            self.remaining -= len(payload)
+        (self.root / f'{key}.json').write_bytes(json_bytes({
+            'url': url, 'error': error, 'htmlSaved': saved,
+            'htmlSha256': sha(payload) if payload is not None else None,
+        }))
+
+
+def previous_discovery(root: Path, existing: dict) -> tuple[list[str], dict]:
+    evidence = {Path(r['path']).name: ((root / r['path']).read_bytes(), r) for r in existing['discovery']}
+    by_url = {record['url']: (payload, record) for payload, record in evidence.values()}
 
     class ReplayFetcher:
         def get(self, url):
-            if url not in saved_discovery:
-                raise ValueError(f"missing saved discovery page: {url}")
-            return saved_discovery[url]
+            return by_url[url]
 
-    # Reconstruct the discovery graph, rather than trusting mutually consistent
-    # edited manifest counts. Replay cannot perform network requests.
     from .discovery import discover as replay_discovery
     seeds, _ = replay_discovery(ReplayFetcher())
-    if set(seeds) | outgoing_urls != urls:
-        raise ValueError("archive does not cover all saved discovery/article links")
-    return {"pages": len(ids), **totals}
+    return seeds, evidence
 
 
-def sync(root: Path, *, full: bool = False, fetcher: Fetcher | None = None) -> dict:
-    fetcher = fetcher or Fetcher()
-    existing = read_json(root / "manifest.json") if (root / "manifest.json").exists() else None
+def manifest_record(document: dict) -> dict:
+    source = document['source']
+    return {
+        'pageId': source['pageId'], 'url': source['url'], 'pageType': source['pageType'],
+        'title': document['title'], 'jsonPath': f"pages/{source['pageId']}.json",
+        'rawHtmlPath': source['rawHtmlPath'], 'htmlSha256': source['htmlSha256'],
+        'counts': {name: len(document[name]) for name in COLLECTIONS},
+        'warnings': document['quality']['warnings'],
+    }
+
+
+def sync(root: Path, *, full: bool = False, fetcher: Fetcher | None = None,
+         report_dir: Path | None = None, checked_at: str | None = None) -> dict:
+    with writer_lock(root):
+        return _sync(root, full=full, fetcher=fetcher or Fetcher(), report_dir=report_dir,
+                     checked_at=checked_at or dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds'))
+
+
+def _sync(root: Path, *, full: bool, fetcher, report_dir: Path | None, checked_at: str) -> dict:
+    timestamp(checked_at)
+    existing = read_json(root / 'manifest.json') if (root / 'manifest.json').exists() else None
     if existing:
-        # Refuse to build on corrupted inputs. Parser upgrades reparse cached bytes.
-        for record in existing["pages"]:
-            if sha((root / record["rawHtmlPath"]).read_bytes()) != record["htmlSha256"]:
-                raise ValueError(f"existing raw snapshot corrupt: {record['pageId']}")
-    robots_bytes, robots_info = fetcher.get(BASE + "robots.txt", allow_missing=True)
+        # Failed refreshes can retain only snapshots proven valid before any I/O.
+        validate_archive(root)
+    old_status = read_json(root / 'status.json') if existing and existing.get('statusPath') else None
+    old_states = {p['url']: p for p in old_status['pages']} if old_status else {}
+    documents, payloads = {}, {}
+    for record in existing['pages'] if existing else []:
+        documents[record['url']] = read_json(root / record['jsonPath'])
+        payloads[record['url']] = (root / record['rawHtmlPath']).read_bytes()
+    fetcher = CrawlBudget(fetcher)
+    rejected = RejectedPages(report_dir)
+    discovery_error = crawl_error = None
     robots = RobotFileParser()
-    robots.parse(robots_bytes.decode("utf-8").splitlines() if robots_info["httpStatus"] == 200 else [])
-    if not robots.can_fetch("AniBT-YucArchive", BASE) or not robots.can_fetch("AniBT-YucArchive", BASE + "archives/"):
-        raise ValueError("robots.txt disallows archive discovery")
-    urls, discovery_evidence = discover(fetcher)
-    discovery_evidence["robots.txt"] = (robots_bytes, robots_info)
-    staged: dict[str, bytes] = {}
-    pages = []
-    queue = list(urls)
-    done = set()
-    page_ids = set()
-    network_changed = 0
+    try:
+        robots_bytes, robots_info = fetcher.get(BASE + 'robots.txt', allow_missing=True)
+        robots.parse(robots_bytes.decode('utf-8').splitlines() if robots_info['httpStatus'] == 200 else [])
+        if not robots.can_fetch('AniBT-YucArchive', BASE) or not robots.can_fetch('AniBT-YucArchive', BASE + 'archives/'):
+            raise ValueError('robots.txt disallows archive discovery')
+    except Exception as exc:
+        crawl_error = discovery_error = source_error('robots', exc)
+    if discovery_error is None:
+        try:
+            seeds, evidence = discover(fetcher)
+            evidence['robots.txt'] = (robots_bytes, robots_info)
+        except Exception as exc:
+            discovery_error = source_error('discovery', exc)
+    if discovery_error:
+        if not existing:
+            raise ValueError(f"cannot bootstrap without verified discovery: {discovery_error['message']}")
+        seeds, evidence = previous_discovery(root, existing)
+    discovery_state = discovery_outcome(old_status['discovery'] if old_status else None, checked_at, discovery_error)
+    queue = sorted(set(seeds) | set(documents) | set(existing.get('pendingUrls', []) if existing else []))
+    done, identities, states = set(), {}, {}
     source_changes = []
+    network_changed = 0
     while queue:
         url = queue.pop(0)
         if url in done:
             continue
         if len(done) >= 1000:
-            raise ValueError("article discovery exceeded 1000 pages")
-        if not robots.can_fetch("AniBT-YucArchive", url):
-            raise ValueError(f"robots.txt disallows discovered article: {url}")
-        slug = page_id(url)
-        if slug in page_ids:
-            raise ValueError(f"colliding page slug: {slug}")
-        page_ids.add(slug); done.add(url)
-        path = f"pages/{slug}.json"
-        raw_path = f"raw/{slug}.html"
-        old = read_json(root / path) if (root / path).exists() else None
-        validators = old["source"] if old and not full else None
-        payload, fetched = fetcher.get(url, validators=validators)
-        if fetched["httpStatus"] == 304:
-            if not old:
-                raise ValueError("unexpected 304 without a stored page")
-            payload = (root / raw_path).read_bytes()
-        if old and old["source"]["htmlSha256"] == sha(payload):
-            source = old["source"]
+            raise ValueError('article discovery exceeded 1000 pages')
+        done.add(url)
+        old = documents.get(url)
+        payload = None
+        error = None
+        slug = None
+        try:
+            slug = page_id(url)
+        except ValueError as exc:
+            error = source_error('identity', exc)
+        if slug is not None:
+            if slug in identities and identities[slug] != url:
+                raise ValueError(f'colliding page slug: {slug}')
+            identities[slug] = url
+        if error is None and crawl_error:
+            error = dict(crawl_error)
+        if error is None and not robots.can_fetch('AniBT-YucArchive', url):
+            error = source_error('robots', ValueError(f'robots.txt disallows article: {url}'))
+        if error is None:
+            phase = 'fetch'
+            try:
+                payload, fetched = fetcher.get(url, validators=old['source'] if old and not full else None)
+                if fetched['httpStatus'] == 304:
+                    if not old:
+                        raise ValueError('unexpected 304 without a stored page')
+                    payload = payloads[url]
+                elif fetched['httpStatus'] != 200:
+                    raise FetchError(f"unexpected article status: {fetched['httpStatus']}")
+                if old and old['source']['htmlSha256'] == sha(payload):
+                    source = old['source']
+                else:
+                    source = {**fetched, 'url': url, 'pageId': slug, 'pageType': page_kind(slug),
+                              'quarterCode': slug if page_kind(slug) == 'quarter' else None,
+                              'rawHtmlPath': f'raw/{slug}.html'}
+                phase = 'parse'
+                document = parse_page(payload, source)
+                phase = 'validation'
+                validate_document(document, payload, old)
+                # Only validated bytes replace an earlier source snapshot.
+                documents[url], payloads[url] = document, payload
+                if not old or old['source']['htmlSha256'] != sha(payload):
+                    network_changed += 1
+                if (old and source['pageType'] == 'upcoming'
+                        and len(document['previews']) < len(old['previews'])):
+                    source_changes.append({'pageId': slug, 'collection': 'previews',
+                                           'previousCount': len(old['previews']), 'currentCount': len(document['previews'])})
+            except Exception as exc:
+                error = source_error(phase, exc)
+        states[url] = page_outcome(url, slug, documents.get(url), old_states.get(url), checked_at, error)
+        if error:
+            rejected.save(url, payload, error)
+            print('retained ' + json.dumps({'page': slug or url, **error}, ensure_ascii=False), flush=True)
         else:
-            network_changed += 1
-            source = {**fetched, "url": url, "pageId": slug, "pageType": page_kind(slug),
-                      "quarterCode": slug if page_kind(slug) == "quarter" else None, "rawHtmlPath": raw_path}
-        document = parse_page(payload, source)
-        validate_document(document, payload, old)
-        if (old and source['pageType'] == 'upcoming'
-                and len(document['previews']) < len(old['previews'])):
-            source_changes.append({'pageId': slug, 'collection': 'previews',
-                                   'previousCount': len(old['previews']), 'currentCount': len(document['previews'])})
-        staged[path] = json_bytes(document)
-        staged[raw_path] = payload
-        pages.append({"pageId": slug, "url": url, "pageType": source["pageType"], "title": document["title"],
-                      "jsonPath": path, "rawHtmlPath": raw_path, "htmlSha256": sha(payload),
-                      "counts": {name: len(document[name]) for name in COLLECTIONS}, "warnings": document["quality"]["warnings"]})
-        for target in sorted(linked_articles(payload, url)):
-            if target not in done and target not in queue:
-                queue.append(target)
-        print(f"parsed {slug}: " + ", ".join(f"{name}={len(document[name])}" for name in COLLECTIONS), flush=True)
-    if existing and not set(existing["discoveredUrls"]).issubset(done):
-        raise ValueError("previously archived pages disappeared from discovery; refusing automatic deletion")
-    previous_discovery = {r["path"]: r for r in existing["discovery"]} if existing else {}
+            print(f"checked {slug}: " + ', '.join(f'{name}={len(documents[url][name])}' for name in COLLECTIONS), flush=True)
+        if url in payloads:
+            for target in sorted(linked_articles(payloads[url], url)):
+                if target not in done and target not in queue:
+                    queue.append(target)
+    if not documents:
+        raise ValueError('cannot bootstrap without at least one validated page')
+    discovered = set(seeds)
+    for url, payload in payloads.items():
+        discovered.update(linked_articles(payload, url))
+    pending = discovered - set(documents)
+    retained = set(documents) - discovered
+    status = build_status(checked_at, discovery_state,
+                          [states[url] for url in sorted(set(documents) | pending)], old_status)
+    staged = {}
+    pages = []
+    for url, document in documents.items():
+        record = manifest_record(document)
+        pages.append(record)
+        staged[record['jsonPath']] = json_bytes(document)
+        staged[record['rawHtmlPath']] = payloads[url]
+    prior_evidence = {r['path']: r for r in existing['discovery']} if existing else {}
     evidence_records = []
-    for name, (payload, fetched) in sorted(discovery_evidence.items()):
-        path = "raw/discovery/" + name
+    for name, (payload, fetched) in sorted(evidence.items()):
+        path = 'raw/discovery/' + name
         staged[path] = payload
-        old = previous_discovery.get(path)
-        if old and old["sha256"] == sha(payload):
-            evidence_records.append(old)
-        else:
-            evidence_records.append({"path": path, "sha256": sha(payload), **fetched})
-    pages.sort(key=lambda record: record["pageId"])
+        old = prior_evidence.get(path)
+        evidence_records.append(old if old and old['sha256'] == sha(payload)
+                                else {**fetched, 'path': path, 'sha256': sha(payload)})
     manifest = {
-        "schemaVersion": SCHEMA_VERSION, "parserVersion": PARSER_VERSION,
-        "source": BASE, "attribution": {"author": "長門有C", "site": "長門番堂 / Yuc's Anime List",
-                                         "license": "CC BY-NC-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/"},
-        "discoveryMethod": "all archive pagination pages, homepage post links, article body and adjacent-post links",
-        "discoveredUrls": sorted(done), "discovery": evidence_records,
-        "pages": pages, "totals": {name: sum(p["counts"][name] for p in pages) for name in COLLECTIONS},
+        'schemaVersion': SCHEMA_VERSION, 'parserVersion': PARSER_VERSION, 'source': BASE,
+        'attribution': {'author': '長門有C', 'site': "長門番堂 / Yuc's Anime List",
+                        'license': 'CC BY-NC-SA 4.0', 'licenseUrl': 'https://creativecommons.org/licenses/by-nc-sa/4.0/'},
+        'discoveryMethod': 'all archive pagination pages, homepage post links, article body and adjacent-post links',
+        'discoveredUrls': sorted(discovered), 'pendingUrls': sorted(pending), 'retainedUrls': sorted(retained),
+        'discovery': evidence_records, 'statusPath': 'status.json',
+        'pages': sorted(pages, key=lambda p: p['pageId']),
+        'totals': {name: sum(p['counts'][name] for p in pages) for name in COLLECTIONS},
     }
-    staged["manifest.json"] = json_bytes(manifest)
-    # Fetch and parse everything before touching published data. Validate a complete
-    # candidate directory, then replace only files whose bytes changed.
-    with tempfile.TemporaryDirectory(prefix="yuc-candidate-") as tmp:
+    staged['manifest.json'] = json_bytes(manifest)
+    staged['status.json'] = json_bytes(status)
+    with tempfile.TemporaryDirectory(prefix='yuc-candidate-') as tmp:
         candidate = Path(tmp)
         for path, payload in staged.items():
-            target = candidate / path; target.parent.mkdir(parents=True, exist_ok=True); target.write_bytes(payload)
+            target = candidate / path
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(payload)
         summary = validate_archive(candidate)
         changed_files = []
         for path, payload in staged.items():
@@ -250,11 +264,14 @@ def sync(root: Path, *, full: bool = False, fetcher: Fetcher | None = None) -> d
             if target.exists() and target.read_bytes() == payload:
                 continue
             target.parent.mkdir(parents=True, exist_ok=True)
-            temporary = target.with_name(target.name + ".tmp")
+            temporary = target.with_name(target.name + '.tmp')
             temporary.write_bytes(payload)
             os.replace(temporary, target)
             changed_files.append(path)
-    report = {"completedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-              "full": full, "fetchedChangedPages": network_changed, "changedFiles": changed_files,
-              "sourceChanges": source_changes, **summary}
-    return report
+    return {
+        'completedAt': checked_at, 'full': full, 'state': status['state'], 'published': True,
+        'consecutiveFailures': status['consecutiveFailures'], 'discovery': discovery_state,
+        'pageStates': status['pages'], 'failures': failures(status),
+        'fetchedChangedPages': network_changed, 'changedFiles': changed_files,
+        'sourceChanges': source_changes, **summary,
+    }

@@ -41,23 +41,29 @@ def discovery_evidence(urls):
     }
 
 
+def snapshot(root, *, include_status=False):
+    return {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*')
+            if p.is_file() and (include_status or p.name != 'status.json')}
+
+
 class ArchiveTests(unittest.TestCase):
     @patch('yuc.archive.discover', fake_discovery)
     def test_publish_validate_noop_and_304(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'data'
-            first = sync(root, fetcher=FakeFetcher())
+            first = sync(root, fetcher=FakeFetcher(), checked_at='2026-09-26T00:00:00+00:00')
             self.assertEqual(first['pages'], 1)
             self.assertEqual(first['introductions'], 1)
-            before = {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()}
+            before = snapshot(root)
             fetcher = FakeFetcher()
-            second = sync(root, fetcher=fetcher)
-            self.assertEqual(second['changedFiles'], [])
+            second = sync(root, fetcher=fetcher, checked_at='2026-09-26T06:00:00+00:00')
+            self.assertEqual(second['changedFiles'], ['status.json'])
             self.assertIn(('https://yuc.wiki/202610/', True), fetcher.calls)
-            self.assertEqual(before, {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()})
+            self.assertEqual(before, snapshot(root))
             self.assertEqual(validate_archive(root)['introductions'], 1)
             full_fetcher = FakeFetcher()
-            self.assertEqual(sync(root, full=True, fetcher=full_fetcher)['changedFiles'], [])
+            self.assertEqual(sync(root, full=True, fetcher=full_fetcher,
+                                  checked_at='2026-09-26T12:00:00+00:00')['changedFiles'], ['status.json'])
             self.assertIn(('https://yuc.wiki/202610/', False), full_fetcher.calls)
             third = sync(root, full=True, fetcher=FakeFetcher(modified=True))
             self.assertEqual(third['fetchedChangedPages'], 1)
@@ -68,10 +74,12 @@ class ArchiveTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'data'
             sync(root, fetcher=FakeFetcher())
-            before = {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()}
-            with self.assertRaises(FetchError):
-                sync(root, fetcher=FakeFetcher(fail=True))
-            self.assertEqual(before, {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()})
+            before = snapshot(root)
+            result = sync(root, fetcher=FakeFetcher(fail=True))
+            self.assertEqual(result['state'], 'degraded')
+            self.assertTrue(result['published'])
+            self.assertEqual(result['pageStates'][0]['state'], 'stale')
+            self.assertEqual(before, snapshot(root))
 
     @patch('yuc.archive.discover', fake_discovery)
     def test_historical_quarter_count_drop_is_still_rejected(self):
@@ -87,12 +95,13 @@ class ArchiveTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'data'
             sync(root, fetcher=QuarterFetcher(10))
-            before = {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()}
-            with self.assertRaisesRegex(ValueError, 'suspicious introductions count drop'):
-                sync(root, full=True, fetcher=QuarterFetcher(6))
-            self.assertEqual(before, {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()})
+            before = snapshot(root)
+            result = sync(root, full=True, fetcher=QuarterFetcher(6))
+            self.assertEqual(result['state'], 'degraded')
+            self.assertIn('suspicious introductions count drop', result['failures'][0]['message'])
+            self.assertEqual(before, snapshot(root))
 
-    def test_later_page_failure_does_not_publish_earlier_updates(self):
+    def test_later_page_failure_preserves_snapshot_and_publishes_earlier_updates(self):
         class LaterFailure(FakeFetcher):
             def get(self, url, **kwargs):
                 if url.endswith('/202610/'):
@@ -102,10 +111,15 @@ class ArchiveTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp, patch('yuc.archive.discover', return_value=(urls, discovery_evidence(urls))):
             root = Path(tmp) / 'data'
             sync(root, fetcher=FakeFetcher())
-            before = {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()}
-            with self.assertRaises(FetchError):
-                sync(root, full=True, fetcher=LaterFailure(modified=True))
-            self.assertEqual(before, {str(p.relative_to(root)): p.read_bytes() for p in root.rglob('*') if p.is_file()})
+            before = snapshot(root)
+            result = sync(root, full=True, fetcher=LaterFailure(modified=True))
+            after = snapshot(root)
+            self.assertEqual(result['state'], 'degraded')
+            self.assertEqual(before['pages/202610.json'], after['pages/202610.json'])
+            self.assertEqual(before['raw/202610.html'], after['raw/202610.html'])
+            self.assertNotEqual(before['pages/202607.json'], after['pages/202607.json'])
+            self.assertNotEqual(before['raw/202607.html'], after['raw/202607.html'])
+            self.assertEqual(validate_archive(root)['pages'], 2)
 
     @patch('yuc.archive.discover', fake_discovery)
     def test_recursively_discovered_article_survives_next_sync(self):
@@ -120,7 +134,7 @@ class ArchiveTests(unittest.TestCase):
             self.assertEqual(sync(root, fetcher=Linked())['pages'], 2)
             second = sync(root, fetcher=Linked())
             self.assertEqual(second['pages'], 2)
-            self.assertEqual(second['changedFiles'], [])
+            self.assertLessEqual(set(second['changedFiles']), {'status.json'})
 
     def test_missing_article_rejected_even_when_manifest_totals_adjusted(self):
         urls = ['https://yuc.wiki/202607/', 'https://yuc.wiki/202610/']
@@ -134,7 +148,7 @@ class ArchiveTests(unittest.TestCase):
             (root / 'manifest.json').write_text(json.dumps(manifest))
             (root / 'pages/202607.json').unlink()
             (root / 'raw/202607.html').unlink()
-            with self.assertRaisesRegex(ValueError, 'does not cover all saved discovery'):
+            with self.assertRaises(ValueError):
                 validate_archive(root)
 
     @patch('yuc.archive.discover', fake_discovery)
@@ -159,9 +173,12 @@ class ArchiveTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp) / 'data'
             sync(root, fetcher=FakeFetcher())
-            with patch('yuc.archive.discover', return_value=([], {})):
-                with self.assertRaisesRegex(ValueError, 'refusing automatic deletion'):
-                    sync(root, fetcher=FakeFetcher())
+            before = snapshot(root)
+            with patch('yuc.archive.discover', side_effect=ValueError('no articles discovered')):
+                result = sync(root, fetcher=FakeFetcher())
+            self.assertEqual(result['state'], 'degraded')
+            self.assertEqual(result['discovery']['state'], 'failed')
+            self.assertEqual(before, snapshot(root))
 
 
 class DiscoveryTests(unittest.TestCase):
