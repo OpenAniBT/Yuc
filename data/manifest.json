@@ -623,10 +623,10 @@
       "title": "2026年10月新番表",
       "jsonPath": "pages/202610.json",
       "rawHtmlPath": "raw/202610.html",
-      "htmlSha256": "0d6139265529e6fde6f2bf342b14c3e7cbc50a1c581d2f80e8afa76971af3d45",
+      "htmlSha256": "11febcb1f6cd270b9e43bbd0b226ea4792654c25f58f7392a8e7974beed1a237",
       "counts": {
         "introductions": 69,
-        "lineup": 0,
+        "lineup": 69,
         "previews": 5,
         "specials": 0,
         "movies": 0
@@ -704,7 +704,7 @@
   ],
   "totals": {
     "introductions": 1637,
-    "lineup": 1102,
+    "lineup": 1171,
     "previews": 128,
     "specials": 366,
     "movies": 76
