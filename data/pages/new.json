@@ -4,20 +4,20 @@
   "source": {
     "url": "https://yuc.wiki/new/",
     "httpStatus": 200,
-    "retrievedAt": "2026-09-26T12:57:18+00:00",
-    "etag": "\"6ab02b41-11d0c\"",
-    "lastModified": "Sun, 20 Sep 2026 18:51:45 GMT",
+    "retrievedAt": "2026-09-28T23:16:50+00:00",
+    "etag": "\"6aba81e2-12c6a\"",
+    "lastModified": "Mon, 28 Sep 2026 15:04:02 GMT",
     "contentType": "text/html; charset=utf-8",
     "transport": {
       "tlsVerified": true,
-      "route": "dns",
-      "connectAddress": null
+      "route": "github-pages",
+      "connectAddress": "185.199.108.153"
     },
     "pageId": "new",
     "pageType": "upcoming",
     "quarterCode": null,
     "rawHtmlPath": "raw/new.html",
-    "htmlSha256": "d69bd28f7940428f278096814bed2f90365e56e4dee60b5c2d02b13cea68af68"
+    "htmlSha256": "3c9d5021563ee100b1de42af4cadab1a2ca9e370ba607677f355cf5c606f1a05"
   },
   "title": "新番卫星观测站",
   "metadata": [
@@ -174,6 +174,10 @@
     },
     {
       "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg"
+    },
+    {
+      "property": "og:image",
       "content": "https://i0.hdslb.com/bfs/new_dyn/813873f25d5c545442ada0a27dd44443512995925.jpg"
     },
     {
@@ -254,6 +258,10 @@
     },
     {
       "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg"
+    },
+    {
+      "property": "og:image",
       "content": "https://i0.hdslb.com/bfs/new_dyn/352a52ee9591f5c2d8aa4f93390e82d5512995925.jpg"
     },
     {
@@ -286,7 +294,15 @@
     },
     {
       "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg"
+    },
+    {
+      "property": "og:image",
       "content": "https://i0.hdslb.com/bfs/new_dyn/9418d87a2c09920635b8edadae4f2d69512995925.jpg"
+    },
+    {
+      "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg"
     },
     {
       "property": "og:image",
@@ -299,6 +315,10 @@
     {
       "property": "og:image",
       "content": "https://i0.hdslb.com/bfs/new_dyn/43352cd24c52147abdff3515f2ddf142512995925.jpg"
+    },
+    {
+      "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg"
     },
     {
       "property": "og:image",
@@ -351,6 +371,10 @@
     {
       "property": "og:image",
       "content": "https://i0.hdslb.com/bfs/new_dyn/9f06191bb3b48587a5c0c8ad6c2d3850512995925.jpg"
+    },
+    {
+      "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg"
     },
     {
       "property": "og:image",
@@ -482,6 +506,10 @@
     },
     {
       "property": "og:image",
+      "content": "https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg"
+    },
+    {
+      "property": "og:image",
       "content": "https://i0.hdslb.com/bfs/new_dyn/182827dba01aa08f3f9941a133ea0bc5512995925.jpg"
     },
     {
@@ -490,7 +518,7 @@
     },
     {
       "property": "article:modified_time",
-      "content": "2026-09-20T18:36:47.658Z"
+      "content": "2026-09-28T15:03:05.226Z"
     },
     {
       "property": "article:author",
@@ -523,8 +551,8 @@
     {}
   ],
   "content": {
-    "text": "即将着陆 [冬季档] (2027年1月±)\n原创\n2027冬\nBanG Dream! It's MyGO!!!!! & Ave Mujica 续篇\n原创\n2027冬\nLoveLive! 莲之空\n女学院学园偶像俱乐部 第2章 106期\n原创\n2027冬\nCHARISMA\n原创\n2027冬\n继承风之人\n原创\n2027冬\nTHE\nONE PIECE\n原创\n2027冬\n新 剑勇传说\n第2期\n漫改\n2027冬\n黄金神威 最终章\n暴走列车篇\n漫改\n2027冬\n入间同学入魔了 if Episode of 魔手党\n漫改\n2027冬\n物理魔法师马修\n第3期\n漫改\n2027冬\n拉面赤猫\n第2期\n漫改\n2027冬\n朱音落语\n第2期\n漫改\n2027冬\n我的可爱对黑岩目高不管用 第2期\n漫改\n2027冬\n婚姻剧毒\n第2期\n漫改\n2027冬\n杀手寓言\n第2期\n漫改\n2027冬\n坂本日常\n第2期\n漫改\n2027冬\n每日男公关\n第2期\n漫改\n2027冬\n蝙蝠杀手\n漫改\n2027冬\n在意的人不是他\n漫改\n2027冬\n历史之眼\n漫改\n2027冬\n平屋小品\n漫改\n2027冬\n祝福\n漫改\n2027冬\n一式小姐\n想要知晓恋爱\n漫改\n2027冬\n你是地雷吗\n地原同学\n漫改\n2027冬\n爱情接合器\n漫改\n2027冬\n伤口与绷带\n漫改\n2027冬\n笔、手铐和事实婚\n漫改\n2027冬\n巨人大小姐\n漫改\n2027冬\n离巢的魔王城\n小说改\n2027冬\nSSS级重生猎人\n小说改\n2027冬\n我与悠兄\n小说改\n2027冬\n结界师的一轮华\n小说改\n2027冬\n茉莉花官吏传\n小说改\n2027冬\n公主骑士的\n小白脸\n小说改\n2027冬\n残月下的\n梅赛德斯\n小说改\n2027冬\n悠久愚者阿兹利的贤者之道\n小说改\n2027冬\n直到杂务附魔师\n发现自己最强为止\n小说改\n2027冬\n异世界转生骚动记\n小说改\n2027冬\n转生精灵精通魔法后踏上旅程 因为长寿而成为活生生的传说\n小说改\n2027冬\n转生游戏世界\n重玩迷宫就职指南\n小说改\n2027冬\n通过扭蛋增加同伴\n打造最强美少女军团\n小说改\n2027冬\n中年贤者的异世界生活日记\n小说改\n2027冬\n末世孤雄\n小说改\n2027冬\n世界顶尖暗杀者转生为异世界贵族 第2期\n小说改\n2027冬\n香格里拉边境\n第3期\n小说改\n2027冬\n虽然我是不完美恶女 Part.2\n小说改\n2027冬\n业物语\n火怜逢我\n游戏改\n2027冬\n迪士尼 扭曲仙境\nSAVANACLAW篇\n其他\n2027冬\n阿卡纳迪亚\n预计着陆 [春季档] (2027年4月±)\n原创\n2027春\n机动战士高达RG\nXARX-ZERO\n原创\n2027春\nLONA\n漫改\n2027春\n神乐钵\n漫改\n2027春\n幼儿园战争\n漫改\n2027春\n天下第一日本\n最强武士选拔赛\n漫改\n2027春\n命运回溯士\n漫改\n2027春\n跃动青春\n第2期\n小说改\n2027春\n药屋少女的呢喃\n第3期 Part.2\n小说改\n2027春\n魔女与佣兵\n游戏改\n2027春\nFree Fire\nDaybreak\n预计着陆 [秋季档] (2027年10月±)\n漫改\n2027秋\n迷宫饭\n第2期\n备战2027\n原创\n2027\n数码宝贝\n新系列\n原创\n2027\nRE:BEL\nROBOTICA\n漫改\n2027\n魔法少女伊莉雅\nFINALE\n漫改\n2027\n摇曳露营△\n第4期\n漫改\n2027\n我心里危险的东西\n第3期\n漫改\n2027\n花样少年少女\n第3期\n漫改\n2027\n胆大党\n第3期\n漫改\n2027\n失忆投捕\n第2期\n漫改\n2027\n黑暗集会\n第2期\n漫改\n2027\n一拳超人\n第3期 Part.2\n漫改\n2027\n新 北斗神拳\nPart.2\n漫改\n2027\n新 乌龙派出所\n漫改\n2027\n爱寐七公主\n漫改\n2027\n魔王军团性怀不轨\n漫改\n2027\n索亚菈与魔物之家\n漫改\n2027\n战奏教室\n漫改\n2027\n赌徒银行\n漫改\n2027\n少女之血\n漫改\n2027\n用锅子\n挡子弹的同时\n漫改\n2027\n思密录音室\n漫改\n2027\n事实有时是谎言\n漫改\n2027\n实衣与山田小姐\n漫改\n2027\n恋爱吧\n冒牌天使\n漫改\n2027\n觉醒吧 铲屎官\n漫改\n2027\n摇滚动画魂\n漫改\n2027\n眼镜仔、\n偶尔、是不良\n漫改\n2027\n雨夜之月\n漫改\n2027\n泪雨和小夜曲\n漫改\n2027\n候鸟与蜗牛\n小说改\n2027\n古书堂事件手帖\n小说改\n2027\nBLADE & BASTARD\n小说改\n2027\n小红帽在旅途中\n偶遇尸体\n小说改\n2027\n恶役千金的真面目\n小说改\n2027\n真正的圣女遭放逐 这个国家要完蛋了\n小说改\n2027\n自不幸开始的最强\n小说改\n2027\n最弱的我\n用穿墙bug变强\n小说改\n2027\n没有得到回报的村民A\n被贵族捡来溺爱\n而觉醒神技能\n小说改\n2027\n暴食狂战士\n第2期\n小说改\n2027\n不时轻声地以俄语遮羞的邻座艾莉同学 第2期\n小说改\n2027\nGATE2\n奇幻海上自卫队\n小说改\n2027\n为美好的世界\n献上祝福 第4期\n小说改\n2027\n盾之勇者成名录\n第5期\n小说改\n2027\n新 狼与香辛料\n第2期\n小说改\n2027\n虽然我是不完美恶女 第2期\n游戏改\n2027\n千恋＊万花",
-    "html": "<div class=\"post-body\" itemprop=\"articleBody\">\n<!DOCTYPE html>\n\n<html>\n<head>\n<meta/>\n</head>\n<body>\n<!--2027冬-->\n<p class=\"future_intro\"><b>即将着陆　[冬季档] (2027年1月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/a6964ce71926a06a55c2c423ed693390512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">BanG Dream! It's MyGO!!!!! &amp; Ave Mujica 续篇</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/4036f50da77327cc54e88164b3a8de85512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">LoveLive! 莲之空<br/>女学院学园偶像俱乐部 第2章 106期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d2f35318218c9ec13367f3b6959e2ae9512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">CHARISMA</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d2c39bcb68a6abd8961bf8af80479e93512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">继承风之人</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5e4ccfc1351ce1dea430442f648e59d8512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">THE<br/>ONE PIECE</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/75f03282d3037aff5a9b707034a6c102512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 剑勇传说<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/03fbc0a8cedb58cd4a049e4f234bcb7f512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">黄金神威 最终章<br/>暴走列车篇</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ec4b0892f90046908efb0e1fc99b8914512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">入间同学入魔了 if Episode of 魔手党</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d65b366e6556d1c67243bda81ca99539512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">物理魔法师马修<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fb6dd0a499c6c6261f1ed03604e641a0512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">拉面赤猫<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b12f8ff88125ef18b83afffac05c3c32512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">朱音落语<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9af24ee8164fa2b1e64c11fdbfba18a0512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">我的可爱对黑岩目高不管用 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7c1fba215174116d34c896bd13356857512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">婚姻剧毒<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/db8ab8e714664541d3535afc921fbfc4512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">杀手寓言<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/023f786f5698c481c268c163bd09cb9d512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">坂本日常<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/01acaea22f53e200ab2e93ebd89f1234512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">每日男公关<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b837e2771d242fdf3855733a57266cfe512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">蝙蝠杀手</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/31ffb00f797c1c4b3f06c835f5ceaf88512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">在意的人不是他</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/1e3b33d9ad2f4e5ee9bb6a99790704ec512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">历史之眼</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/e8ea15f2e856ec5325ec9a132ba37394512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">平屋小品</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/8757e956d594f8e51372516d0ef4a1bd512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">祝福</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c9334fd77432d631472fdad9d0b6876f512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">一式小姐<br/>想要知晓恋爱</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3d5ad51f5cdcc1b65fc327c9f8f83933512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">你是地雷吗<br/>地原同学</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c7caec2e7244ecc7389b7e3136444b48512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">爱情接合器</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fef3fd1aa2f2ec2370dc84f7178fae29512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">伤口与绷带</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/2a9a6bea3c910ce3b85d6e2eab0a2c36512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">笔、手铐和事实婚</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/813873f25d5c545442ada0a27dd44443512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">巨人大小姐</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ae8af1df0cc398481484fe51c930470d512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">离巢的魔王城</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/6491a8fba93a79dd895a5cf98cdedec2512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">SSS级重生猎人</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/05e787ac777f09ea670e914cad4dc215512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">我与悠兄</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d2391c188d59951a3d10e42893144019512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">结界师的一轮华</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/909fc7ea1d4984af2ccdd013a46bef39512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">茉莉花官吏传</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/a587cfeeab1567c48c131da5518c62c1512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">公主骑士的<br/>小白脸</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/e4aac34362c0d87e994adc7cc6fa3a33512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">残月下的<br/>梅赛德斯</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d130010ef441517067409015051c3621512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">悠久愚者阿兹利的贤者之道</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ee9c5a5985e2d592e3fdcedb76bd6e30512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">直到杂务附魔师<br/>发现自己最强为止</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9454ac5f5e45301c66d97054dedc6c31512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">异世界转生骚动记</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/85cb0b6c80e77315601ea8441da1bc55512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">转生精灵精通魔法后踏上旅程 因为长寿而成为活生生的传说</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7b30f36508fb33e0e958ead12735c89e512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">转生游戏世界<br/>重玩迷宫就职指南</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ab1b96ebb483a42fbfeca2607a141493512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">通过扭蛋增加同伴<br/>打造最强美少女军团</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/94d5d2c09bd5a27c6c31d71ba041305e512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">中年贤者的异世界生活日记</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/8c43eed6a451b7751017ae983d9317ae512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">末世孤雄</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b5da6128921c997fe849c68529ecab18512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">世界顶尖暗杀者转生为异世界贵族 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3ce37133c8577cab68fe2ca7cf8d1d46512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">香格里拉边境<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d221d0cfdd53068b09b4950ddfea77cb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">虽然我是不完美恶女 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/19c85d9c6d34251b1274dbf7e9a7ecca512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">业物语<br/>火怜逢我</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/352a52ee9591f5c2d8aa4f93390e82d5512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">迪士尼 扭曲仙境<br/>SAVANACLAW篇</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_e\">其他</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/47788125aaf14537b2fd2c15569a4800512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">阿卡纳迪亚</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027春-->\n<p class=\"future_intro\"><b>预计着陆　[春季档] (2027年4月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5db2e8891dd19f5379a381f1a5c29122512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">机动战士高达RG<br/>XARX-ZERO</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f7a760b66d496a0dea6bc4da542b7d5a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">LONA</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/4a89572d85303aaf82eea79b07db89f2512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">神乐钵</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d8635ef13bb279154b420af0b83361fe512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">幼儿园战争</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b271039ee7b25f9e21ee80f72ab973c1512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">天下第一日本<br/>最强武士选拔赛</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f8a4d70bbb779c094803de06b80cf0e7512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">命运回溯士</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9418d87a2c09920635b8edadae4f2d69512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">跃动青春<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/56ee58af8b2e5e287709b21a39d71768512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">药屋少女的呢喃<br/>第3期 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5c55710dfa97ed55992c26e468daccae512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">魔女与佣兵</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/43352cd24c52147abdff3515f2ddf142512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">Free Fire<br/>Daybreak</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027春-->\n<p class=\"future_intro\"><b>预计着陆　[秋季档] (2027年10月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027秋</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ba2948cb279622813d27c5c10fa3cda1512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">迷宫饭<br/>第2期</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027预定-->\n<p class=\"future_intro\"><b>备战2027</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5d7e3b6db779f3be6b5ee29ab7983f5d512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">数码宝贝<br/>新系列</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/a63dc505696cfd40a0eaaea0da976bbe512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">RE:BEL<br/>ROBOTICA</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/203a7b50d0fe16a4a19e79535f40cccb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">魔法少女伊莉雅<br/>FINALE</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fc76f2103fb497610b16a28008cad1df512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">摇曳露营△<br/>第4期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d8563ea1563fc6f6777e308d87ed455a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">我心里危险的东西<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f6fd144e178bc398971b6a24294ef061512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">花样少年少女<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7025e2eceab754b3d09bc50a6c403021512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">胆大党<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/eed7d758edf91d3bb19378b979235697512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">失忆投捕<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c0e84fa6dffe82f80dcc154e6eca3367512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">黑暗集会<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/71c5af4331f576b3e0de5fb48edd9d76512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">一拳超人<br/>第3期 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b47772dd69258095073454b81d7cbe27512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 北斗神拳<br/>Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9f06191bb3b48587a5c0c8ad6c2d3850512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 乌龙派出所</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ab26988935cad464762b297e3348f8c5512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">爱寐七公主</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/35a5caad247c59445e02c39d4eabfba4512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">魔王军团性怀不轨</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5718737c85c63104289c4aa90a217f45512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">索亚菈与魔物之家</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/98d35784d69525f7367846d4be18b263512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">战奏教室</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/07a11dc998aa965838ce8c2cee84d967512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">赌徒银行</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/4e13ff335fbd2815a2214ff4c66567ab512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">少女之血</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/eaacbad6d752e41210de9db669299af0512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">用锅子<br/>挡子弹的同时</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/97b63832e96b0eaa06dcc2f753cd2233512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">思密录音室</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/febc122c47d1bace80c0c0c770861edb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">事实有时是谎言</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7fa9a000962a9f250ea1e2798b0868ec512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">实衣与山田小姐</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/306f88225704c82869b599ca7329c840512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">恋爱吧<br/>冒牌天使</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/87605849bc8de73a6262bb9b46e8e2a7512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">觉醒吧 铲屎官</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f7e5fade58917f2e6885c178d1ed5d96512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">摇滚动画魂</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b77ed8cf5e16eee454413214efdad3c7512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">眼镜仔、<br/>偶尔、是不良</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/84ad1aca3607449976a2611c01cbbcda512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">雨夜之月</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/77efb54c67a1cf1dda5c4adf43492e93512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">泪雨和小夜曲</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5604ecaa6778ef1b3f148094fabc8bdb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">候鸟与蜗牛</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/812239cae947b4968f1dc47d638d2709512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">古书堂事件手帖</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b00348d884bcd919e643aa392f2b975a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">BLADE &amp; BASTARD</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/0c681372e5c15baa2fc14bb56f2049cd512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">小红帽在旅途中<br/>偶遇尸体</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/dd47d9f55cf40dd511681576d306cc67512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">恶役千金的真面目</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/62a37c863b2442486bc13347ffb2a5ac512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">真正的圣女遭放逐 这个国家要完蛋了</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/abe5630a79a5caacb66fcdc7ac402d2f512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">自不幸开始的最强</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/2c9767649eb0353b128ba2ab07090c46512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">最弱的我<br/>用穿墙bug变强</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/cedb0111ffc869084f41f19d055bc85a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">没有得到回报的村民A<br/>被贵族捡来溺爱<br/>而觉醒神技能</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c0735bc57cc5d595a545f0c3759d747e512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">暴食狂战士<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/494dbd15e22b7d30a884b29878c197d2512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">不时轻声地以俄语遮羞的邻座艾莉同学 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f85d535448f57de0c997c69b06e4396c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">GATE2<br/>奇幻海上自卫队</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/1c0cf3a590ed9f8e63b0dde68644842c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">为美好的世界<br/>献上祝福 第4期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3cf56a11b0463a25727af2779bec343c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">盾之勇者成名录<br/>第5期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/2bca61c4061e702aaa2207c40ce025ab512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 狼与香辛料<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/df5578fc4cc578805e5c356fe0c07c6c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">虽然我是不完美恶女 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/182827dba01aa08f3f9941a133ea0bc5512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">千恋＊万花</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><br/><br/></p>\n</body>\n</html>\n</div>",
+    "text": "即将着陆 [冬季档] (2027年1月±)\n原创\n2027冬\nBanG Dream! It's MyGO!!!!! & Ave Mujica 续篇\n原创\n2027冬\nLoveLive! 莲之空\n女学院学园偶像俱乐部 第2章 106期\n原创\n2027冬\nCHARISMA\n原创\n2027冬\n继承风之人\n原创\n2027冬\nTHE\nONE PIECE\n原创\n2027冬\n新 剑勇传说\n第2期\n漫改\n2027冬\n黄金神威 最终章\n暴走列车篇\n漫改\n2027冬\n入间同学入魔了 if Episode of 魔手党\n漫改\n2027冬\n物理魔法师马修\n第3期\n漫改\n2027冬\n拉面赤猫\n第2期\n漫改\n2027冬\n朱音落语\n第2期\n漫改\n2027冬\n我的可爱对黑岩目高不管用 第2期\n漫改\n2027冬\n婚姻剧毒\n第2期\n漫改\n2027冬\n杀手寓言\n第2期\n漫改\n2027冬\n坂本日常\n第2期\n漫改\n2027冬\n每日男公关\n第2期\n漫改\n2027冬\n蝙蝠杀手\n漫改\n2027冬\n在意的人不是他\n漫改\n2027冬\n历史之眼\n漫改\n2027冬\n平屋小品\n漫改\n2027冬\n祝福\n漫改\n2027冬\n一式小姐\n想要知晓恋爱\n漫改\n2027冬\n你是地雷吗\n地原同学\n漫改\n2027冬\n爱情接合器\n漫改\n2027冬\n伤口与绷带\n漫改\n2027冬\n笔、手铐和事实婚\n漫改\n2027冬\n既然要画恋爱漫画\n漫改\n2027冬\n巨人大小姐\n漫改\n2027冬\n离巢的魔王城\n小说改\n2027冬\nSSS级重生猎人\n小说改\n2027冬\n我与悠兄\n小说改\n2027冬\n结界师的一轮华\n小说改\n2027冬\n茉莉花官吏传\n小说改\n2027冬\n公主骑士的\n小白脸\n小说改\n2027冬\n残月下的\n梅赛德斯\n小说改\n2027冬\n悠久愚者阿兹利的贤者之道\n小说改\n2027冬\n直到杂务附魔师\n发现自己最强为止\n小说改\n2027冬\n异世界转生骚动记\n小说改\n2027冬\n转生精灵精通魔法后踏上旅程 因为长寿而成为活生生的传说\n小说改\n2027冬\n转生游戏世界\n重玩迷宫就职指南\n小说改\n2027冬\n通过扭蛋增加同伴\n打造最强美少女军团\n小说改\n2027冬\n中年贤者的异世界生活日记\n小说改\n2027冬\n末世孤雄\n小说改\n2027冬\n世界顶尖暗杀者转生为异世界贵族 第2期\n小说改\n2027冬\n香格里拉边境\n第3期\n小说改\n2027冬\n虽然我是不完美恶女 Part.2\n小说改\n2027冬\n业物语\n火怜逢我\n游戏改\n2027冬\n怪物弹珠 梅拉×死神\n死神与我的异常之恋\n游戏改\n2027冬\n迪士尼 扭曲仙境\nSAVANACLAW篇\n其他\n2027冬\n阿卡纳迪亚\n预计着陆 [春季档] (2027年4月±)\n原创\n2027春\n机动战士高达RG\nXARX-ZERO\n原创\n2027春\nLONA\n漫改\n2027春\n神乐钵\n漫改\n2027春\n幼儿园战争\n漫改\n2027春\n天下第一日本\n最强武士选拔赛\n漫改\n2027春\n命运回溯士\n漫改\n2027春\n放学后的偶像\n有一个秘密\n漫改\n2027春\n跃动青春\n第2期\n漫改\n2027春\n转生变成史莱姆\n克莱曼Revenge\n小说改\n2027春\n药屋少女的呢喃\n第3期 Part.2\n小说改\n2027春\n魔女与佣兵\n游戏改\n2027春\nFree Fire\nDaybreak\n预计着陆 [夏季档] (2027年7月±)\n小说改\n2027夏\n转生变成史莱姆\n第4期 Part.2\n预计着陆 [秋季档] (2027年10月±)\n漫改\n2027秋\n迷宫饭\n第2期\n备战2027\n原创\n2027\n数码宝贝\n新系列\n原创\n2027\nRE:BEL\nROBOTICA\n漫改\n2027\n魔法少女伊莉雅\nFINALE\n漫改\n2027\n摇曳露营△\n第4期\n漫改\n2027\n我心里危险的东西\n第3期\n漫改\n2027\n花样少年少女\n第3期\n漫改\n2027\n胆大党\n第3期\n漫改\n2027\n失忆投捕\n第2期\n漫改\n2027\n黑暗集会\n第2期\n漫改\n2027\n一拳超人\n第3期 Part.2\n漫改\n2027\n新 北斗神拳\nPart.2\n漫改\n2027\n新 乌龙派出所\n漫改\n2027\n新 美味大挑战\n漫改\n2027\n爱寐七公主\n漫改\n2027\n魔王军团性怀不轨\n漫改\n2027\n索亚菈与魔物之家\n漫改\n2027\n战奏教室\n漫改\n2027\n赌徒银行\n漫改\n2027\n少女之血\n漫改\n2027\n用锅子\n挡子弹的同时\n漫改\n2027\n思密录音室\n漫改\n2027\n事实有时是谎言\n漫改\n2027\n实衣与山田小姐\n漫改\n2027\n恋爱吧\n冒牌天使\n漫改\n2027\n觉醒吧 铲屎官\n漫改\n2027\n摇滚动画魂\n漫改\n2027\n眼镜仔、\n偶尔、是不良\n漫改\n2027\n雨夜之月\n漫改\n2027\n泪雨和小夜曲\n漫改\n2027\n候鸟与蜗牛\n小说改\n2027\n古书堂事件手帖\n小说改\n2027\nBLADE & BASTARD\n小说改\n2027\n小红帽在旅途中\n偶遇尸体\n小说改\n2027\n恶役千金的真面目\n小说改\n2027\n真正的圣女遭放逐 这个国家要完蛋了\n小说改\n2027\n自不幸开始的最强\n小说改\n2027\n最弱的我\n用穿墙bug变强\n小说改\n2027\n没有得到回报的村民A\n被贵族捡来溺爱\n而觉醒神技能\n小说改\n2027\n暴食狂战士\n第2期\n小说改\n2027\n不时轻声地以俄语遮羞的邻座艾莉同学 第2期\n小说改\n2027\nGATE2\n奇幻海上自卫队\n小说改\n2027\n为美好的世界\n献上祝福 第4期\n小说改\n2027\n盾之勇者成名录\n第5期\n小说改\n2027\n新 狼与香辛料\n第2期\n小说改\n2027\n虽然我是不完美恶女 第2期\n小说改\n2027\n无职转生\n第3期 Part.2\n游戏改\n2027\n千恋＊万花",
+    "html": "<div class=\"post-body\" itemprop=\"articleBody\">\n<!DOCTYPE html>\n\n<html>\n<head>\n<meta/>\n</head>\n<body>\n<!--2027冬-->\n<p class=\"future_intro\"><b>即将着陆　[冬季档] (2027年1月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/a6964ce71926a06a55c2c423ed693390512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">BanG Dream! It's MyGO!!!!! &amp; Ave Mujica 续篇</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/4036f50da77327cc54e88164b3a8de85512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">LoveLive! 莲之空<br/>女学院学园偶像俱乐部 第2章 106期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d2f35318218c9ec13367f3b6959e2ae9512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">CHARISMA</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d2c39bcb68a6abd8961bf8af80479e93512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">继承风之人</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5e4ccfc1351ce1dea430442f648e59d8512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">THE<br/>ONE PIECE</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/75f03282d3037aff5a9b707034a6c102512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 剑勇传说<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/03fbc0a8cedb58cd4a049e4f234bcb7f512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">黄金神威 最终章<br/>暴走列车篇</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ec4b0892f90046908efb0e1fc99b8914512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">入间同学入魔了 if Episode of 魔手党</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d65b366e6556d1c67243bda81ca99539512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">物理魔法师马修<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fb6dd0a499c6c6261f1ed03604e641a0512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">拉面赤猫<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b12f8ff88125ef18b83afffac05c3c32512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">朱音落语<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9af24ee8164fa2b1e64c11fdbfba18a0512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">我的可爱对黑岩目高不管用 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7c1fba215174116d34c896bd13356857512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">婚姻剧毒<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/db8ab8e714664541d3535afc921fbfc4512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">杀手寓言<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/023f786f5698c481c268c163bd09cb9d512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">坂本日常<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/01acaea22f53e200ab2e93ebd89f1234512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">每日男公关<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b837e2771d242fdf3855733a57266cfe512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">蝙蝠杀手</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/31ffb00f797c1c4b3f06c835f5ceaf88512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">在意的人不是他</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/1e3b33d9ad2f4e5ee9bb6a99790704ec512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">历史之眼</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/e8ea15f2e856ec5325ec9a132ba37394512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">平屋小品</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/8757e956d594f8e51372516d0ef4a1bd512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">祝福</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c9334fd77432d631472fdad9d0b6876f512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">一式小姐<br/>想要知晓恋爱</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3d5ad51f5cdcc1b65fc327c9f8f83933512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">你是地雷吗<br/>地原同学</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c7caec2e7244ecc7389b7e3136444b48512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">爱情接合器</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fef3fd1aa2f2ec2370dc84f7178fae29512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">伤口与绷带</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/2a9a6bea3c910ce3b85d6e2eab0a2c36512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">笔、手铐和事实婚</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">既然要画恋爱漫画</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/813873f25d5c545442ada0a27dd44443512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">巨人大小姐</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ae8af1df0cc398481484fe51c930470d512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">离巢的魔王城</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/6491a8fba93a79dd895a5cf98cdedec2512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">SSS级重生猎人</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/05e787ac777f09ea670e914cad4dc215512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">我与悠兄</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d2391c188d59951a3d10e42893144019512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">结界师的一轮华</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/909fc7ea1d4984af2ccdd013a46bef39512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">茉莉花官吏传</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/a587cfeeab1567c48c131da5518c62c1512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">公主骑士的<br/>小白脸</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/e4aac34362c0d87e994adc7cc6fa3a33512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">残月下的<br/>梅赛德斯</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d130010ef441517067409015051c3621512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">悠久愚者阿兹利的贤者之道</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ee9c5a5985e2d592e3fdcedb76bd6e30512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">直到杂务附魔师<br/>发现自己最强为止</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9454ac5f5e45301c66d97054dedc6c31512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">异世界转生骚动记</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/85cb0b6c80e77315601ea8441da1bc55512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">转生精灵精通魔法后踏上旅程 因为长寿而成为活生生的传说</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7b30f36508fb33e0e958ead12735c89e512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">转生游戏世界<br/>重玩迷宫就职指南</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ab1b96ebb483a42fbfeca2607a141493512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">通过扭蛋增加同伴<br/>打造最强美少女军团</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/94d5d2c09bd5a27c6c31d71ba041305e512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">中年贤者的异世界生活日记</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/8c43eed6a451b7751017ae983d9317ae512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">末世孤雄</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b5da6128921c997fe849c68529ecab18512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">世界顶尖暗杀者转生为异世界贵族 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3ce37133c8577cab68fe2ca7cf8d1d46512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">香格里拉边境<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d221d0cfdd53068b09b4950ddfea77cb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">虽然我是不完美恶女 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/19c85d9c6d34251b1274dbf7e9a7ecca512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">业物语<br/>火怜逢我</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">怪物弹珠 梅拉×死神<br/>死神与我的异常之恋</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/352a52ee9591f5c2d8aa4f93390e82d5512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">迪士尼 扭曲仙境<br/>SAVANACLAW篇</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_e\">其他</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/47788125aaf14537b2fd2c15569a4800512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">阿卡纳迪亚</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027春-->\n<p class=\"future_intro\"><b>预计着陆　[春季档] (2027年4月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5db2e8891dd19f5379a381f1a5c29122512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">机动战士高达RG<br/>XARX-ZERO</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f7a760b66d496a0dea6bc4da542b7d5a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">LONA</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/4a89572d85303aaf82eea79b07db89f2512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">神乐钵</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d8635ef13bb279154b420af0b83361fe512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">幼儿园战争</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b271039ee7b25f9e21ee80f72ab973c1512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">天下第一日本<br/>最强武士选拔赛</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f8a4d70bbb779c094803de06b80cf0e7512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">命运回溯士</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">放学后的偶像<br/>有一个秘密</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9418d87a2c09920635b8edadae4f2d69512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">跃动青春<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">转生变成史莱姆<br/>克莱曼Revenge</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/56ee58af8b2e5e287709b21a39d71768512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">药屋少女的呢喃<br/>第3期 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5c55710dfa97ed55992c26e468daccae512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">魔女与佣兵</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/43352cd24c52147abdff3515f2ddf142512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">Free Fire<br/>Daybreak</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027夏-->\n<p class=\"future_intro\"><b>预计着陆　[夏季档] (2027年7月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027夏</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">转生变成史莱姆<br/>第4期 Part.2</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027春-->\n<p class=\"future_intro\"><b>预计着陆　[秋季档] (2027年10月±)</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027秋</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ba2948cb279622813d27c5c10fa3cda1512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">迷宫饭<br/>第2期</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><hr/></p>\n<!--2027预定-->\n<p class=\"future_intro\"><b>备战2027</b></p>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5d7e3b6db779f3be6b5ee29ab7983f5d512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">数码宝贝<br/>新系列</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_a\">原创</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/a63dc505696cfd40a0eaaea0da976bbe512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">RE:BEL<br/>ROBOTICA</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/203a7b50d0fe16a4a19e79535f40cccb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">魔法少女伊莉雅<br/>FINALE</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fc76f2103fb497610b16a28008cad1df512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">摇曳露营△<br/>第4期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d8563ea1563fc6f6777e308d87ed455a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">我心里危险的东西<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f6fd144e178bc398971b6a24294ef061512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">花样少年少女<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7025e2eceab754b3d09bc50a6c403021512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">胆大党<br/>第3期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/eed7d758edf91d3bb19378b979235697512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">失忆投捕<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c0e84fa6dffe82f80dcc154e6eca3367512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">黑暗集会<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/71c5af4331f576b3e0de5fb48edd9d76512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">一拳超人<br/>第3期 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b47772dd69258095073454b81d7cbe27512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 北斗神拳<br/>Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/9f06191bb3b48587a5c0c8ad6c2d3850512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 乌龙派出所</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 美味大挑战</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/ab26988935cad464762b297e3348f8c5512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">爱寐七公主</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/35a5caad247c59445e02c39d4eabfba4512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">魔王军团性怀不轨</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5718737c85c63104289c4aa90a217f45512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">索亚菈与魔物之家</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/98d35784d69525f7367846d4be18b263512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">战奏教室</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/07a11dc998aa965838ce8c2cee84d967512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">赌徒银行</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/4e13ff335fbd2815a2214ff4c66567ab512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">少女之血</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/eaacbad6d752e41210de9db669299af0512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">用锅子<br/>挡子弹的同时</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/97b63832e96b0eaa06dcc2f753cd2233512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">思密录音室</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/febc122c47d1bace80c0c0c770861edb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">事实有时是谎言</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/7fa9a000962a9f250ea1e2798b0868ec512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">实衣与山田小姐</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/306f88225704c82869b599ca7329c840512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">恋爱吧<br/>冒牌天使</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/87605849bc8de73a6262bb9b46e8e2a7512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">觉醒吧 铲屎官</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f7e5fade58917f2e6885c178d1ed5d96512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">摇滚动画魂</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b77ed8cf5e16eee454413214efdad3c7512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">眼镜仔、<br/>偶尔、是不良</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/84ad1aca3607449976a2611c01cbbcda512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">雨夜之月</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/77efb54c67a1cf1dda5c4adf43492e93512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">泪雨和小夜曲</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/5604ecaa6778ef1b3f148094fabc8bdb512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">候鸟与蜗牛</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/812239cae947b4968f1dc47d638d2709512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">古书堂事件手帖</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/b00348d884bcd919e643aa392f2b975a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">BLADE &amp; BASTARD</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/0c681372e5c15baa2fc14bb56f2049cd512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">小红帽在旅途中<br/>偶遇尸体</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/dd47d9f55cf40dd511681576d306cc67512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">恶役千金的真面目</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/62a37c863b2442486bc13347ffb2a5ac512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">真正的圣女遭放逐 这个国家要完蛋了</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/abe5630a79a5caacb66fcdc7ac402d2f512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">自不幸开始的最强</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/2c9767649eb0353b128ba2ab07090c46512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">最弱的我<br/>用穿墙bug变强</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/cedb0111ffc869084f41f19d055bc85a512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">没有得到回报的村民A<br/>被贵族捡来溺爱<br/>而觉醒神技能</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/c0735bc57cc5d595a545f0c3759d747e512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">暴食狂战士<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/494dbd15e22b7d30a884b29878c197d2512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">不时轻声地以俄语遮羞的邻座艾莉同学 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/f85d535448f57de0c997c69b06e4396c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">GATE2<br/>奇幻海上自卫队</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/1c0cf3a590ed9f8e63b0dde68644842c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">为美好的世界<br/>献上祝福 第4期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3cf56a11b0463a25727af2779bec343c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">盾之勇者成名录<br/>第5期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/2bca61c4061e702aaa2207c40ce025ab512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 狼与香辛料<br/>第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/df5578fc4cc578805e5c356fe0c07c6c512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">虽然我是不完美恶女 第2期</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">无职转生<br/>第3期 Part.2</td></tr></table></div></div>\n<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/182827dba01aa08f3f9941a133ea0bc5512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">千恋＊万花</td></tr></table></div></div>\n<div style=\"clear:both\"></div>\n<p><br/><br/><br/></p>\n</body>\n</html>\n</div>",
     "links": [],
     "images": [
       {
@@ -736,6 +764,14 @@
         "title": null
       },
       {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
         "url": "https://i0.hdslb.com/bfs/new_dyn/813873f25d5c545442ada0a27dd44443512995925.jpg",
         "src": null,
         "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/813873f25d5c545442ada0a27dd44443512995925.jpg",
@@ -896,6 +932,14 @@
         "title": null
       },
       {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
         "url": "https://i0.hdslb.com/bfs/new_dyn/352a52ee9591f5c2d8aa4f93390e82d5512995925.jpg",
         "src": null,
         "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/352a52ee9591f5c2d8aa4f93390e82d5512995925.jpg",
@@ -960,9 +1004,25 @@
         "title": null
       },
       {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
         "url": "https://i0.hdslb.com/bfs/new_dyn/9418d87a2c09920635b8edadae4f2d69512995925.jpg",
         "src": null,
         "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/9418d87a2c09920635b8edadae4f2d69512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg",
         "srcset": null,
         "alt": null,
         "title": null
@@ -987,6 +1047,14 @@
         "url": "https://i0.hdslb.com/bfs/new_dyn/43352cd24c52147abdff3515f2ddf142512995925.jpg",
         "src": null,
         "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/43352cd24c52147abdff3515f2ddf142512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg",
         "srcset": null,
         "alt": null,
         "title": null
@@ -1091,6 +1159,14 @@
         "url": "https://i0.hdslb.com/bfs/new_dyn/9f06191bb3b48587a5c0c8ad6c2d3850512995925.jpg",
         "src": null,
         "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/9f06191bb3b48587a5c0c8ad6c2d3850512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg",
         "srcset": null,
         "alt": null,
         "title": null
@@ -1347,6 +1423,14 @@
         "url": "https://i0.hdslb.com/bfs/new_dyn/df5578fc4cc578805e5c356fe0c07c6c512995925.jpg",
         "src": null,
         "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/df5578fc4cc578805e5c356fe0c07c6c512995925.jpg",
+        "srcset": null,
+        "alt": null,
+        "title": null
+      },
+      {
+        "url": "https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg",
+        "src": null,
+        "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg",
         "srcset": null,
         "alt": null,
         "title": null
@@ -2420,6 +2504,46 @@
     {
       "recordId": "new:preview:27",
       "title": {
+        "text": "既然要画恋爱漫画",
+        "lines": [
+          "既然要画恋爱漫画"
+        ]
+      },
+      "format": {
+        "text": "漫改",
+        "lines": [
+          "漫改"
+        ]
+      },
+      "release": {
+        "text": "2027冬",
+        "lines": [
+          "2027冬"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "漫改\n2027冬\n既然要画恋爱漫画",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/e3e34e42a4bff3bc7e31a0371d6014d8512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">既然要画恋爱漫画</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:28",
+      "title": {
         "text": "巨人大小姐",
         "lines": [
           "巨人大小姐"
@@ -2458,7 +2582,7 @@
       }
     },
     {
-      "recordId": "new:preview:28",
+      "recordId": "new:preview:29",
       "title": {
         "text": "离巢的魔王城",
         "lines": [
@@ -2498,7 +2622,7 @@
       }
     },
     {
-      "recordId": "new:preview:29",
+      "recordId": "new:preview:30",
       "title": {
         "text": "SSS级重生猎人",
         "lines": [
@@ -2538,7 +2662,7 @@
       }
     },
     {
-      "recordId": "new:preview:30",
+      "recordId": "new:preview:31",
       "title": {
         "text": "我与悠兄",
         "lines": [
@@ -2578,7 +2702,7 @@
       }
     },
     {
-      "recordId": "new:preview:31",
+      "recordId": "new:preview:32",
       "title": {
         "text": "结界师的一轮华",
         "lines": [
@@ -2618,7 +2742,7 @@
       }
     },
     {
-      "recordId": "new:preview:32",
+      "recordId": "new:preview:33",
       "title": {
         "text": "茉莉花官吏传",
         "lines": [
@@ -2658,7 +2782,7 @@
       }
     },
     {
-      "recordId": "new:preview:33",
+      "recordId": "new:preview:34",
       "title": {
         "text": "公主骑士的\n小白脸",
         "lines": [
@@ -2699,7 +2823,7 @@
       }
     },
     {
-      "recordId": "new:preview:34",
+      "recordId": "new:preview:35",
       "title": {
         "text": "残月下的\n梅赛德斯",
         "lines": [
@@ -2740,7 +2864,7 @@
       }
     },
     {
-      "recordId": "new:preview:35",
+      "recordId": "new:preview:36",
       "title": {
         "text": "悠久愚者阿兹利的贤者之道",
         "lines": [
@@ -2780,7 +2904,7 @@
       }
     },
     {
-      "recordId": "new:preview:36",
+      "recordId": "new:preview:37",
       "title": {
         "text": "直到杂务附魔师\n发现自己最强为止",
         "lines": [
@@ -2821,7 +2945,7 @@
       }
     },
     {
-      "recordId": "new:preview:37",
+      "recordId": "new:preview:38",
       "title": {
         "text": "异世界转生骚动记",
         "lines": [
@@ -2861,7 +2985,7 @@
       }
     },
     {
-      "recordId": "new:preview:38",
+      "recordId": "new:preview:39",
       "title": {
         "text": "转生精灵精通魔法后踏上旅程 因为长寿而成为活生生的传说",
         "lines": [
@@ -2901,7 +3025,7 @@
       }
     },
     {
-      "recordId": "new:preview:39",
+      "recordId": "new:preview:40",
       "title": {
         "text": "转生游戏世界\n重玩迷宫就职指南",
         "lines": [
@@ -2942,7 +3066,7 @@
       }
     },
     {
-      "recordId": "new:preview:40",
+      "recordId": "new:preview:41",
       "title": {
         "text": "通过扭蛋增加同伴\n打造最强美少女军团",
         "lines": [
@@ -2983,7 +3107,7 @@
       }
     },
     {
-      "recordId": "new:preview:41",
+      "recordId": "new:preview:42",
       "title": {
         "text": "中年贤者的异世界生活日记",
         "lines": [
@@ -3023,7 +3147,7 @@
       }
     },
     {
-      "recordId": "new:preview:42",
+      "recordId": "new:preview:43",
       "title": {
         "text": "末世孤雄",
         "lines": [
@@ -3063,7 +3187,7 @@
       }
     },
     {
-      "recordId": "new:preview:43",
+      "recordId": "new:preview:44",
       "title": {
         "text": "世界顶尖暗杀者转生为异世界贵族 第2期",
         "lines": [
@@ -3103,7 +3227,7 @@
       }
     },
     {
-      "recordId": "new:preview:44",
+      "recordId": "new:preview:45",
       "title": {
         "text": "香格里拉边境\n第3期",
         "lines": [
@@ -3144,7 +3268,7 @@
       }
     },
     {
-      "recordId": "new:preview:45",
+      "recordId": "new:preview:46",
       "title": {
         "text": "虽然我是不完美恶女 Part.2",
         "lines": [
@@ -3184,7 +3308,7 @@
       }
     },
     {
-      "recordId": "new:preview:46",
+      "recordId": "new:preview:47",
       "title": {
         "text": "业物语\n火怜逢我",
         "lines": [
@@ -3225,7 +3349,48 @@
       }
     },
     {
-      "recordId": "new:preview:47",
+      "recordId": "new:preview:48",
+      "title": {
+        "text": "怪物弹珠 梅拉×死神\n死神与我的异常之恋",
+        "lines": [
+          "怪物弹珠 梅拉×死神",
+          "死神与我的异常之恋"
+        ]
+      },
+      "format": {
+        "text": "游戏改",
+        "lines": [
+          "游戏改"
+        ]
+      },
+      "release": {
+        "text": "2027冬",
+        "lines": [
+          "2027冬"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "游戏改\n2027冬\n怪物弹珠 梅拉×死神\n死神与我的异常之恋",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_d\">游戏改</p><p class=\"future_date_\">2027冬</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/d999cac4ba91d07ced602000387ec9a3512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title__\">怪物弹珠 梅拉×死神<br/>死神与我的异常之恋</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:49",
       "title": {
         "text": "迪士尼 扭曲仙境\nSAVANACLAW篇",
         "lines": [
@@ -3266,7 +3431,7 @@
       }
     },
     {
-      "recordId": "new:preview:48",
+      "recordId": "new:preview:50",
       "title": {
         "text": "阿卡纳迪亚",
         "lines": [
@@ -3306,7 +3471,7 @@
       }
     },
     {
-      "recordId": "new:preview:49",
+      "recordId": "new:preview:51",
       "title": {
         "text": "机动战士高达RG\nXARX-ZERO",
         "lines": [
@@ -3347,7 +3512,7 @@
       }
     },
     {
-      "recordId": "new:preview:50",
+      "recordId": "new:preview:52",
       "title": {
         "text": "LONA",
         "lines": [
@@ -3387,7 +3552,7 @@
       }
     },
     {
-      "recordId": "new:preview:51",
+      "recordId": "new:preview:53",
       "title": {
         "text": "神乐钵",
         "lines": [
@@ -3427,7 +3592,7 @@
       }
     },
     {
-      "recordId": "new:preview:52",
+      "recordId": "new:preview:54",
       "title": {
         "text": "幼儿园战争",
         "lines": [
@@ -3467,7 +3632,7 @@
       }
     },
     {
-      "recordId": "new:preview:53",
+      "recordId": "new:preview:55",
       "title": {
         "text": "天下第一日本\n最强武士选拔赛",
         "lines": [
@@ -3508,7 +3673,7 @@
       }
     },
     {
-      "recordId": "new:preview:54",
+      "recordId": "new:preview:56",
       "title": {
         "text": "命运回溯士",
         "lines": [
@@ -3548,7 +3713,48 @@
       }
     },
     {
-      "recordId": "new:preview:55",
+      "recordId": "new:preview:57",
+      "title": {
+        "text": "放学后的偶像\n有一个秘密",
+        "lines": [
+          "放学后的偶像",
+          "有一个秘密"
+        ]
+      },
+      "format": {
+        "text": "漫改",
+        "lines": [
+          "漫改"
+        ]
+      },
+      "release": {
+        "text": "2027春",
+        "lines": [
+          "2027春"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "漫改\n2027春\n放学后的偶像\n有一个秘密",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/3a1b9d298a545fd75444e722f3ef43ce512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">放学后的偶像<br/>有一个秘密</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:58",
       "title": {
         "text": "跃动青春\n第2期",
         "lines": [
@@ -3589,7 +3795,48 @@
       }
     },
     {
-      "recordId": "new:preview:56",
+      "recordId": "new:preview:59",
+      "title": {
+        "text": "转生变成史莱姆\n克莱曼Revenge",
+        "lines": [
+          "转生变成史莱姆",
+          "克莱曼Revenge"
+        ]
+      },
+      "format": {
+        "text": "漫改",
+        "lines": [
+          "漫改"
+        ]
+      },
+      "release": {
+        "text": "2027春",
+        "lines": [
+          "2027春"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "漫改\n2027春\n转生变成史莱姆\n克莱曼Revenge",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027春</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/98ab5f544e12b235f9ef8371f7d363da512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">转生变成史莱姆<br/>克莱曼Revenge</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:60",
       "title": {
         "text": "药屋少女的呢喃\n第3期 Part.2",
         "lines": [
@@ -3630,7 +3877,7 @@
       }
     },
     {
-      "recordId": "new:preview:57",
+      "recordId": "new:preview:61",
       "title": {
         "text": "魔女与佣兵",
         "lines": [
@@ -3670,7 +3917,7 @@
       }
     },
     {
-      "recordId": "new:preview:58",
+      "recordId": "new:preview:62",
       "title": {
         "text": "Free Fire\nDaybreak",
         "lines": [
@@ -3711,7 +3958,48 @@
       }
     },
     {
-      "recordId": "new:preview:59",
+      "recordId": "new:preview:63",
+      "title": {
+        "text": "转生变成史莱姆\n第4期 Part.2",
+        "lines": [
+          "转生变成史莱姆",
+          "第4期 Part.2"
+        ]
+      },
+      "format": {
+        "text": "小说改",
+        "lines": [
+          "小说改"
+        ]
+      },
+      "release": {
+        "text": "2027夏",
+        "lines": [
+          "2027夏"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "小说改\n2027夏\n转生变成史莱姆\n第4期 Part.2",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027夏</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/27e20ba4e10c6b0b1e2cb1b9e084f4cd512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">转生变成史莱姆<br/>第4期 Part.2</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:64",
       "title": {
         "text": "迷宫饭\n第2期",
         "lines": [
@@ -3752,7 +4040,7 @@
       }
     },
     {
-      "recordId": "new:preview:60",
+      "recordId": "new:preview:65",
       "title": {
         "text": "数码宝贝\n新系列",
         "lines": [
@@ -3793,7 +4081,7 @@
       }
     },
     {
-      "recordId": "new:preview:61",
+      "recordId": "new:preview:66",
       "title": {
         "text": "RE:BEL\nROBOTICA",
         "lines": [
@@ -3834,7 +4122,7 @@
       }
     },
     {
-      "recordId": "new:preview:62",
+      "recordId": "new:preview:67",
       "title": {
         "text": "魔法少女伊莉雅\nFINALE",
         "lines": [
@@ -3875,7 +4163,7 @@
       }
     },
     {
-      "recordId": "new:preview:63",
+      "recordId": "new:preview:68",
       "title": {
         "text": "摇曳露营△\n第4期",
         "lines": [
@@ -3916,7 +4204,7 @@
       }
     },
     {
-      "recordId": "new:preview:64",
+      "recordId": "new:preview:69",
       "title": {
         "text": "我心里危险的东西\n第3期",
         "lines": [
@@ -3957,7 +4245,7 @@
       }
     },
     {
-      "recordId": "new:preview:65",
+      "recordId": "new:preview:70",
       "title": {
         "text": "花样少年少女\n第3期",
         "lines": [
@@ -3998,7 +4286,7 @@
       }
     },
     {
-      "recordId": "new:preview:66",
+      "recordId": "new:preview:71",
       "title": {
         "text": "胆大党\n第3期",
         "lines": [
@@ -4039,7 +4327,7 @@
       }
     },
     {
-      "recordId": "new:preview:67",
+      "recordId": "new:preview:72",
       "title": {
         "text": "失忆投捕\n第2期",
         "lines": [
@@ -4080,7 +4368,7 @@
       }
     },
     {
-      "recordId": "new:preview:68",
+      "recordId": "new:preview:73",
       "title": {
         "text": "黑暗集会\n第2期",
         "lines": [
@@ -4121,7 +4409,7 @@
       }
     },
     {
-      "recordId": "new:preview:69",
+      "recordId": "new:preview:74",
       "title": {
         "text": "一拳超人\n第3期 Part.2",
         "lines": [
@@ -4162,7 +4450,7 @@
       }
     },
     {
-      "recordId": "new:preview:70",
+      "recordId": "new:preview:75",
       "title": {
         "text": "新 北斗神拳\nPart.2",
         "lines": [
@@ -4203,7 +4491,7 @@
       }
     },
     {
-      "recordId": "new:preview:71",
+      "recordId": "new:preview:76",
       "title": {
         "text": "新 乌龙派出所",
         "lines": [
@@ -4243,7 +4531,47 @@
       }
     },
     {
-      "recordId": "new:preview:72",
+      "recordId": "new:preview:77",
+      "title": {
+        "text": "新 美味大挑战",
+        "lines": [
+          "新 美味大挑战"
+        ]
+      },
+      "format": {
+        "text": "漫改",
+        "lines": [
+          "漫改"
+        ]
+      },
+      "release": {
+        "text": "2027",
+        "lines": [
+          "2027"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "漫改\n2027\n新 美味大挑战",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_b\">漫改</p><p class=\"future_date\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/49da887acaec42700891e1e73f681dd4512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">新 美味大挑战</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:78",
       "title": {
         "text": "爱寐七公主",
         "lines": [
@@ -4283,7 +4611,7 @@
       }
     },
     {
-      "recordId": "new:preview:73",
+      "recordId": "new:preview:79",
       "title": {
         "text": "魔王军团性怀不轨",
         "lines": [
@@ -4323,7 +4651,7 @@
       }
     },
     {
-      "recordId": "new:preview:74",
+      "recordId": "new:preview:80",
       "title": {
         "text": "索亚菈与魔物之家",
         "lines": [
@@ -4363,7 +4691,7 @@
       }
     },
     {
-      "recordId": "new:preview:75",
+      "recordId": "new:preview:81",
       "title": {
         "text": "战奏教室",
         "lines": [
@@ -4403,7 +4731,7 @@
       }
     },
     {
-      "recordId": "new:preview:76",
+      "recordId": "new:preview:82",
       "title": {
         "text": "赌徒银行",
         "lines": [
@@ -4443,7 +4771,7 @@
       }
     },
     {
-      "recordId": "new:preview:77",
+      "recordId": "new:preview:83",
       "title": {
         "text": "少女之血",
         "lines": [
@@ -4483,7 +4811,7 @@
       }
     },
     {
-      "recordId": "new:preview:78",
+      "recordId": "new:preview:84",
       "title": {
         "text": "用锅子\n挡子弹的同时",
         "lines": [
@@ -4524,7 +4852,7 @@
       }
     },
     {
-      "recordId": "new:preview:79",
+      "recordId": "new:preview:85",
       "title": {
         "text": "思密录音室",
         "lines": [
@@ -4564,7 +4892,7 @@
       }
     },
     {
-      "recordId": "new:preview:80",
+      "recordId": "new:preview:86",
       "title": {
         "text": "事实有时是谎言",
         "lines": [
@@ -4604,7 +4932,7 @@
       }
     },
     {
-      "recordId": "new:preview:81",
+      "recordId": "new:preview:87",
       "title": {
         "text": "实衣与山田小姐",
         "lines": [
@@ -4644,7 +4972,7 @@
       }
     },
     {
-      "recordId": "new:preview:82",
+      "recordId": "new:preview:88",
       "title": {
         "text": "恋爱吧\n冒牌天使",
         "lines": [
@@ -4685,7 +5013,7 @@
       }
     },
     {
-      "recordId": "new:preview:83",
+      "recordId": "new:preview:89",
       "title": {
         "text": "觉醒吧 铲屎官",
         "lines": [
@@ -4725,7 +5053,7 @@
       }
     },
     {
-      "recordId": "new:preview:84",
+      "recordId": "new:preview:90",
       "title": {
         "text": "摇滚动画魂",
         "lines": [
@@ -4765,7 +5093,7 @@
       }
     },
     {
-      "recordId": "new:preview:85",
+      "recordId": "new:preview:91",
       "title": {
         "text": "眼镜仔、\n偶尔、是不良",
         "lines": [
@@ -4806,7 +5134,7 @@
       }
     },
     {
-      "recordId": "new:preview:86",
+      "recordId": "new:preview:92",
       "title": {
         "text": "雨夜之月",
         "lines": [
@@ -4846,7 +5174,7 @@
       }
     },
     {
-      "recordId": "new:preview:87",
+      "recordId": "new:preview:93",
       "title": {
         "text": "泪雨和小夜曲",
         "lines": [
@@ -4886,7 +5214,7 @@
       }
     },
     {
-      "recordId": "new:preview:88",
+      "recordId": "new:preview:94",
       "title": {
         "text": "候鸟与蜗牛",
         "lines": [
@@ -4926,7 +5254,7 @@
       }
     },
     {
-      "recordId": "new:preview:89",
+      "recordId": "new:preview:95",
       "title": {
         "text": "古书堂事件手帖",
         "lines": [
@@ -4966,7 +5294,7 @@
       }
     },
     {
-      "recordId": "new:preview:90",
+      "recordId": "new:preview:96",
       "title": {
         "text": "BLADE & BASTARD",
         "lines": [
@@ -5006,7 +5334,7 @@
       }
     },
     {
-      "recordId": "new:preview:91",
+      "recordId": "new:preview:97",
       "title": {
         "text": "小红帽在旅途中\n偶遇尸体",
         "lines": [
@@ -5047,7 +5375,7 @@
       }
     },
     {
-      "recordId": "new:preview:92",
+      "recordId": "new:preview:98",
       "title": {
         "text": "恶役千金的真面目",
         "lines": [
@@ -5087,7 +5415,7 @@
       }
     },
     {
-      "recordId": "new:preview:93",
+      "recordId": "new:preview:99",
       "title": {
         "text": "真正的圣女遭放逐 这个国家要完蛋了",
         "lines": [
@@ -5127,7 +5455,7 @@
       }
     },
     {
-      "recordId": "new:preview:94",
+      "recordId": "new:preview:100",
       "title": {
         "text": "自不幸开始的最强",
         "lines": [
@@ -5167,7 +5495,7 @@
       }
     },
     {
-      "recordId": "new:preview:95",
+      "recordId": "new:preview:101",
       "title": {
         "text": "最弱的我\n用穿墙bug变强",
         "lines": [
@@ -5208,7 +5536,7 @@
       }
     },
     {
-      "recordId": "new:preview:96",
+      "recordId": "new:preview:102",
       "title": {
         "text": "没有得到回报的村民A\n被贵族捡来溺爱\n而觉醒神技能",
         "lines": [
@@ -5250,7 +5578,7 @@
       }
     },
     {
-      "recordId": "new:preview:97",
+      "recordId": "new:preview:103",
       "title": {
         "text": "暴食狂战士\n第2期",
         "lines": [
@@ -5291,7 +5619,7 @@
       }
     },
     {
-      "recordId": "new:preview:98",
+      "recordId": "new:preview:104",
       "title": {
         "text": "不时轻声地以俄语遮羞的邻座艾莉同学 第2期",
         "lines": [
@@ -5331,7 +5659,7 @@
       }
     },
     {
-      "recordId": "new:preview:99",
+      "recordId": "new:preview:105",
       "title": {
         "text": "GATE2\n奇幻海上自卫队",
         "lines": [
@@ -5372,7 +5700,7 @@
       }
     },
     {
-      "recordId": "new:preview:100",
+      "recordId": "new:preview:106",
       "title": {
         "text": "为美好的世界\n献上祝福 第4期",
         "lines": [
@@ -5413,7 +5741,7 @@
       }
     },
     {
-      "recordId": "new:preview:101",
+      "recordId": "new:preview:107",
       "title": {
         "text": "盾之勇者成名录\n第5期",
         "lines": [
@@ -5454,7 +5782,7 @@
       }
     },
     {
-      "recordId": "new:preview:102",
+      "recordId": "new:preview:108",
       "title": {
         "text": "新 狼与香辛料\n第2期",
         "lines": [
@@ -5495,7 +5823,7 @@
       }
     },
     {
-      "recordId": "new:preview:103",
+      "recordId": "new:preview:109",
       "title": {
         "text": "虽然我是不完美恶女 第2期",
         "lines": [
@@ -5535,7 +5863,48 @@
       }
     },
     {
-      "recordId": "new:preview:104",
+      "recordId": "new:preview:110",
+      "title": {
+        "text": "无职转生\n第3期 Part.2",
+        "lines": [
+          "无职转生",
+          "第3期 Part.2"
+        ]
+      },
+      "format": {
+        "text": "小说改",
+        "lines": [
+          "小说改"
+        ]
+      },
+      "release": {
+        "text": "2027",
+        "lines": [
+          "2027"
+        ]
+      },
+      "boxOffice": {
+        "text": null,
+        "lines": []
+      },
+      "images": [
+        {
+          "url": "https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg",
+          "src": null,
+          "dataSrc": "https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg",
+          "srcset": null,
+          "alt": null,
+          "title": null
+        }
+      ],
+      "links": [],
+      "raw": {
+        "text": "小说改\n2027\n无职转生\n第3期 Part.2",
+        "html": "<div style=\"float:left\"><div class=\"future_div\">\n<p class=\"future_type_c\">小说改</p><p class=\"future_date_\">2027</p>\n<img data-src=\"https://i0.hdslb.com/bfs/new_dyn/fc9756485627c56defe20ece6e1b4e21512995925.jpg\" referrerpolicy=\"no-referrer\" width=\"150px\"/></div><div><table class=\"future_table\"><tr class=\"future_tr\">\n<td class=\"future_title_\">无职转生<br/>第3期 Part.2</td></tr></table></div></div>"
+      }
+    },
+    {
+      "recordId": "new:preview:111",
       "title": {
         "text": "千恋＊万花",
         "lines": [
@@ -6164,6 +6533,28 @@
             ],
             "rowspan": null,
             "colspan": null,
+            "text": "既然要画恋爱漫画",
+            "html": "<td class=\"future_title_\">既然要画恋爱漫画</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 28,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title_"
+            ],
+            "rowspan": null,
+            "colspan": null,
             "text": "巨人大小姐",
             "html": "<td class=\"future_title_\">巨人大小姐</td>",
             "links": [],
@@ -6173,7 +6564,7 @@
       ]
     },
     {
-      "index": 28,
+      "index": 29,
       "classes": [
         "future_table"
       ],
@@ -6195,7 +6586,7 @@
       ]
     },
     {
-      "index": 29,
+      "index": 30,
       "classes": [
         "future_table"
       ],
@@ -6217,7 +6608,7 @@
       ]
     },
     {
-      "index": 30,
+      "index": 31,
       "classes": [
         "future_table"
       ],
@@ -6239,7 +6630,7 @@
       ]
     },
     {
-      "index": 31,
+      "index": 32,
       "classes": [
         "future_table"
       ],
@@ -6261,7 +6652,7 @@
       ]
     },
     {
-      "index": 32,
+      "index": 33,
       "classes": [
         "future_table"
       ],
@@ -6283,7 +6674,7 @@
       ]
     },
     {
-      "index": 33,
+      "index": 34,
       "classes": [
         "future_table"
       ],
@@ -6305,7 +6696,7 @@
       ]
     },
     {
-      "index": 34,
+      "index": 35,
       "classes": [
         "future_table"
       ],
@@ -6327,7 +6718,7 @@
       ]
     },
     {
-      "index": 35,
+      "index": 36,
       "classes": [
         "future_table"
       ],
@@ -6349,7 +6740,7 @@
       ]
     },
     {
-      "index": 36,
+      "index": 37,
       "classes": [
         "future_table"
       ],
@@ -6371,7 +6762,7 @@
       ]
     },
     {
-      "index": 37,
+      "index": 38,
       "classes": [
         "future_table"
       ],
@@ -6393,7 +6784,7 @@
       ]
     },
     {
-      "index": 38,
+      "index": 39,
       "classes": [
         "future_table"
       ],
@@ -6415,7 +6806,7 @@
       ]
     },
     {
-      "index": 39,
+      "index": 40,
       "classes": [
         "future_table"
       ],
@@ -6437,7 +6828,7 @@
       ]
     },
     {
-      "index": 40,
+      "index": 41,
       "classes": [
         "future_table"
       ],
@@ -6459,7 +6850,7 @@
       ]
     },
     {
-      "index": 41,
+      "index": 42,
       "classes": [
         "future_table"
       ],
@@ -6481,7 +6872,7 @@
       ]
     },
     {
-      "index": 42,
+      "index": 43,
       "classes": [
         "future_table"
       ],
@@ -6503,7 +6894,7 @@
       ]
     },
     {
-      "index": 43,
+      "index": 44,
       "classes": [
         "future_table"
       ],
@@ -6525,7 +6916,7 @@
       ]
     },
     {
-      "index": 44,
+      "index": 45,
       "classes": [
         "future_table"
       ],
@@ -6547,7 +6938,7 @@
       ]
     },
     {
-      "index": 45,
+      "index": 46,
       "classes": [
         "future_table"
       ],
@@ -6569,7 +6960,7 @@
       ]
     },
     {
-      "index": 46,
+      "index": 47,
       "classes": [
         "future_table"
       ],
@@ -6591,7 +6982,29 @@
       ]
     },
     {
-      "index": 47,
+      "index": 48,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title__"
+            ],
+            "rowspan": null,
+            "colspan": null,
+            "text": "怪物弹珠 梅拉×死神\n死神与我的异常之恋",
+            "html": "<td class=\"future_title__\">怪物弹珠 梅拉×死神<br/>死神与我的异常之恋</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 49,
       "classes": [
         "future_table"
       ],
@@ -6613,7 +7026,7 @@
       ]
     },
     {
-      "index": 48,
+      "index": 50,
       "classes": [
         "future_table"
       ],
@@ -6635,7 +7048,7 @@
       ]
     },
     {
-      "index": 49,
+      "index": 51,
       "classes": [
         "future_table"
       ],
@@ -6657,7 +7070,7 @@
       ]
     },
     {
-      "index": 50,
+      "index": 52,
       "classes": [
         "future_table"
       ],
@@ -6679,7 +7092,7 @@
       ]
     },
     {
-      "index": 51,
+      "index": 53,
       "classes": [
         "future_table"
       ],
@@ -6701,7 +7114,7 @@
       ]
     },
     {
-      "index": 52,
+      "index": 54,
       "classes": [
         "future_table"
       ],
@@ -6723,7 +7136,7 @@
       ]
     },
     {
-      "index": 53,
+      "index": 55,
       "classes": [
         "future_table"
       ],
@@ -6745,7 +7158,7 @@
       ]
     },
     {
-      "index": 54,
+      "index": 56,
       "classes": [
         "future_table"
       ],
@@ -6767,7 +7180,29 @@
       ]
     },
     {
-      "index": 55,
+      "index": 57,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title_"
+            ],
+            "rowspan": null,
+            "colspan": null,
+            "text": "放学后的偶像\n有一个秘密",
+            "html": "<td class=\"future_title_\">放学后的偶像<br/>有一个秘密</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 58,
       "classes": [
         "future_table"
       ],
@@ -6789,7 +7224,29 @@
       ]
     },
     {
-      "index": 56,
+      "index": 59,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title_"
+            ],
+            "rowspan": null,
+            "colspan": null,
+            "text": "转生变成史莱姆\n克莱曼Revenge",
+            "html": "<td class=\"future_title_\">转生变成史莱姆<br/>克莱曼Revenge</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 60,
       "classes": [
         "future_table"
       ],
@@ -6811,7 +7268,7 @@
       ]
     },
     {
-      "index": 57,
+      "index": 61,
       "classes": [
         "future_table"
       ],
@@ -6833,7 +7290,7 @@
       ]
     },
     {
-      "index": 58,
+      "index": 62,
       "classes": [
         "future_table"
       ],
@@ -6855,7 +7312,29 @@
       ]
     },
     {
-      "index": 59,
+      "index": 63,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title_"
+            ],
+            "rowspan": null,
+            "colspan": null,
+            "text": "转生变成史莱姆\n第4期 Part.2",
+            "html": "<td class=\"future_title_\">转生变成史莱姆<br/>第4期 Part.2</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 64,
       "classes": [
         "future_table"
       ],
@@ -6877,7 +7356,7 @@
       ]
     },
     {
-      "index": 60,
+      "index": 65,
       "classes": [
         "future_table"
       ],
@@ -6899,7 +7378,7 @@
       ]
     },
     {
-      "index": 61,
+      "index": 66,
       "classes": [
         "future_table"
       ],
@@ -6921,7 +7400,7 @@
       ]
     },
     {
-      "index": 62,
+      "index": 67,
       "classes": [
         "future_table"
       ],
@@ -6943,7 +7422,7 @@
       ]
     },
     {
-      "index": 63,
+      "index": 68,
       "classes": [
         "future_table"
       ],
@@ -6965,7 +7444,7 @@
       ]
     },
     {
-      "index": 64,
+      "index": 69,
       "classes": [
         "future_table"
       ],
@@ -6987,7 +7466,7 @@
       ]
     },
     {
-      "index": 65,
+      "index": 70,
       "classes": [
         "future_table"
       ],
@@ -7009,7 +7488,7 @@
       ]
     },
     {
-      "index": 66,
+      "index": 71,
       "classes": [
         "future_table"
       ],
@@ -7031,7 +7510,7 @@
       ]
     },
     {
-      "index": 67,
+      "index": 72,
       "classes": [
         "future_table"
       ],
@@ -7053,7 +7532,7 @@
       ]
     },
     {
-      "index": 68,
+      "index": 73,
       "classes": [
         "future_table"
       ],
@@ -7075,7 +7554,7 @@
       ]
     },
     {
-      "index": 69,
+      "index": 74,
       "classes": [
         "future_table"
       ],
@@ -7097,7 +7576,7 @@
       ]
     },
     {
-      "index": 70,
+      "index": 75,
       "classes": [
         "future_table"
       ],
@@ -7119,7 +7598,7 @@
       ]
     },
     {
-      "index": 71,
+      "index": 76,
       "classes": [
         "future_table"
       ],
@@ -7141,7 +7620,29 @@
       ]
     },
     {
-      "index": 72,
+      "index": 77,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title_"
+            ],
+            "rowspan": null,
+            "colspan": null,
+            "text": "新 美味大挑战",
+            "html": "<td class=\"future_title_\">新 美味大挑战</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 78,
       "classes": [
         "future_table"
       ],
@@ -7163,7 +7664,7 @@
       ]
     },
     {
-      "index": 73,
+      "index": 79,
       "classes": [
         "future_table"
       ],
@@ -7185,7 +7686,7 @@
       ]
     },
     {
-      "index": 74,
+      "index": 80,
       "classes": [
         "future_table"
       ],
@@ -7207,7 +7708,7 @@
       ]
     },
     {
-      "index": 75,
+      "index": 81,
       "classes": [
         "future_table"
       ],
@@ -7229,7 +7730,7 @@
       ]
     },
     {
-      "index": 76,
+      "index": 82,
       "classes": [
         "future_table"
       ],
@@ -7251,7 +7752,7 @@
       ]
     },
     {
-      "index": 77,
+      "index": 83,
       "classes": [
         "future_table"
       ],
@@ -7273,7 +7774,7 @@
       ]
     },
     {
-      "index": 78,
+      "index": 84,
       "classes": [
         "future_table"
       ],
@@ -7295,7 +7796,7 @@
       ]
     },
     {
-      "index": 79,
+      "index": 85,
       "classes": [
         "future_table"
       ],
@@ -7317,7 +7818,7 @@
       ]
     },
     {
-      "index": 80,
+      "index": 86,
       "classes": [
         "future_table"
       ],
@@ -7339,7 +7840,7 @@
       ]
     },
     {
-      "index": 81,
+      "index": 87,
       "classes": [
         "future_table"
       ],
@@ -7361,7 +7862,7 @@
       ]
     },
     {
-      "index": 82,
+      "index": 88,
       "classes": [
         "future_table"
       ],
@@ -7383,7 +7884,7 @@
       ]
     },
     {
-      "index": 83,
+      "index": 89,
       "classes": [
         "future_table"
       ],
@@ -7405,7 +7906,7 @@
       ]
     },
     {
-      "index": 84,
+      "index": 90,
       "classes": [
         "future_table"
       ],
@@ -7427,7 +7928,7 @@
       ]
     },
     {
-      "index": 85,
+      "index": 91,
       "classes": [
         "future_table"
       ],
@@ -7449,7 +7950,7 @@
       ]
     },
     {
-      "index": 86,
+      "index": 92,
       "classes": [
         "future_table"
       ],
@@ -7471,7 +7972,7 @@
       ]
     },
     {
-      "index": 87,
+      "index": 93,
       "classes": [
         "future_table"
       ],
@@ -7493,7 +7994,7 @@
       ]
     },
     {
-      "index": 88,
+      "index": 94,
       "classes": [
         "future_table"
       ],
@@ -7515,7 +8016,7 @@
       ]
     },
     {
-      "index": 89,
+      "index": 95,
       "classes": [
         "future_table"
       ],
@@ -7537,7 +8038,7 @@
       ]
     },
     {
-      "index": 90,
+      "index": 96,
       "classes": [
         "future_table"
       ],
@@ -7559,7 +8060,7 @@
       ]
     },
     {
-      "index": 91,
+      "index": 97,
       "classes": [
         "future_table"
       ],
@@ -7581,7 +8082,7 @@
       ]
     },
     {
-      "index": 92,
+      "index": 98,
       "classes": [
         "future_table"
       ],
@@ -7603,7 +8104,7 @@
       ]
     },
     {
-      "index": 93,
+      "index": 99,
       "classes": [
         "future_table"
       ],
@@ -7625,7 +8126,7 @@
       ]
     },
     {
-      "index": 94,
+      "index": 100,
       "classes": [
         "future_table"
       ],
@@ -7647,7 +8148,7 @@
       ]
     },
     {
-      "index": 95,
+      "index": 101,
       "classes": [
         "future_table"
       ],
@@ -7669,7 +8170,7 @@
       ]
     },
     {
-      "index": 96,
+      "index": 102,
       "classes": [
         "future_table"
       ],
@@ -7691,7 +8192,7 @@
       ]
     },
     {
-      "index": 97,
+      "index": 103,
       "classes": [
         "future_table"
       ],
@@ -7713,7 +8214,7 @@
       ]
     },
     {
-      "index": 98,
+      "index": 104,
       "classes": [
         "future_table"
       ],
@@ -7735,7 +8236,7 @@
       ]
     },
     {
-      "index": 99,
+      "index": 105,
       "classes": [
         "future_table"
       ],
@@ -7757,7 +8258,7 @@
       ]
     },
     {
-      "index": 100,
+      "index": 106,
       "classes": [
         "future_table"
       ],
@@ -7779,7 +8280,7 @@
       ]
     },
     {
-      "index": 101,
+      "index": 107,
       "classes": [
         "future_table"
       ],
@@ -7801,7 +8302,7 @@
       ]
     },
     {
-      "index": 102,
+      "index": 108,
       "classes": [
         "future_table"
       ],
@@ -7823,7 +8324,7 @@
       ]
     },
     {
-      "index": 103,
+      "index": 109,
       "classes": [
         "future_table"
       ],
@@ -7845,7 +8346,29 @@
       ]
     },
     {
-      "index": 104,
+      "index": 110,
+      "classes": [
+        "future_table"
+      ],
+      "cells": [
+        [
+          {
+            "tag": "td",
+            "classes": [
+              "future_title_"
+            ],
+            "rowspan": null,
+            "colspan": null,
+            "text": "无职转生\n第3期 Part.2",
+            "html": "<td class=\"future_title_\">无职转生<br/>第3期 Part.2</td>",
+            "links": [],
+            "images": []
+          }
+        ]
+      ]
+    },
+    {
+      "index": 111,
       "classes": [
         "future_table"
       ],
@@ -7870,7 +8393,7 @@
   "quality": {
     "introductionCount": 0,
     "lineupCount": 0,
-    "previewCount": 104,
+    "previewCount": 111,
     "specialCount": 0,
     "movieCount": 0,
     "claimedIntroductionCounts": [],

@@ -606,7 +606,7 @@
       "title": "2026年7月新番表",
       "jsonPath": "pages/202607.json",
       "rawHtmlPath": "raw/202607.html",
-      "htmlSha256": "3fe01853ad657e967c6b4e4f041d0d2b9e15fccf4b77409b2c086e8e72f65437",
+      "htmlSha256": "89dc8599a9412649410ebc738405252828cc821d3a8f056bdcfbd7bff8e789b5",
       "counts": {
         "introductions": 66,
         "lineup": 80,
@@ -623,10 +623,10 @@
       "title": "2026年10月新番表",
       "jsonPath": "pages/202610.json",
       "rawHtmlPath": "raw/202610.html",
-      "htmlSha256": "11febcb1f6cd270b9e43bbd0b226ea4792654c25f58f7392a8e7974beed1a237",
+      "htmlSha256": "407cb0c05be918193a5578404bf3be85756951809abc799179332ee7efcd9567",
       "counts": {
         "introductions": 69,
-        "lineup": 69,
+        "lineup": 75,
         "previews": 5,
         "specials": 0,
         "movies": 0
@@ -674,11 +674,11 @@
       "title": "新番卫星观测站",
       "jsonPath": "pages/new.json",
       "rawHtmlPath": "raw/new.html",
-      "htmlSha256": "d69bd28f7940428f278096814bed2f90365e56e4dee60b5c2d02b13cea68af68",
+      "htmlSha256": "3c9d5021563ee100b1de42af4cadab1a2ca9e370ba607677f355cf5c606f1a05",
       "counts": {
         "introductions": 0,
         "lineup": 0,
-        "previews": 104,
+        "previews": 111,
         "specials": 0,
         "movies": 0
       },
@@ -704,8 +704,8 @@
   ],
   "totals": {
     "introductions": 1637,
-    "lineup": 1171,
-    "previews": 128,
+    "lineup": 1177,
+    "previews": 135,
     "specials": 366,
     "movies": 76
   }
