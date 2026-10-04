@@ -606,7 +606,7 @@
       "title": "2026年7月新番表",
       "jsonPath": "pages/202607.json",
       "rawHtmlPath": "raw/202607.html",
-      "htmlSha256": "568e3c9cc7d73bdb465c5e861776e6dbb9e6d465cf06e222f122832a465203f5",
+      "htmlSha256": "16e48a363b89c0cbeac7b772b771f61acc12061dcc7b4429a55a965566777f43",
       "counts": {
         "introductions": 66,
         "lineup": 80,
@@ -623,7 +623,7 @@
       "title": "2026年10月新番表",
       "jsonPath": "pages/202610.json",
       "rawHtmlPath": "raw/202610.html",
-      "htmlSha256": "4322b77086c21a8ab63b5b399d6db00b2a41e0ecf35017dfa7b635434d14acb3",
+      "htmlSha256": "8b9e343f334bb09bfae410cb2ba9444e69e0e1ec2d4c854ccb9f858a2579dce3",
       "counts": {
         "introductions": 69,
         "lineup": 71,
@@ -674,7 +674,7 @@
       "title": "新番卫星观测站",
       "jsonPath": "pages/new.json",
       "rawHtmlPath": "raw/new.html",
-      "htmlSha256": "f8f8445befc6e773f46a3accfdd96ca8c95918a9632dff82127a17108a09586c",
+      "htmlSha256": "0aaa89d8cc271379ff53a7ea112e0ad1821a4590c4c622d8207618fff262f02d",
       "counts": {
         "introductions": 0,
         "lineup": 0,
