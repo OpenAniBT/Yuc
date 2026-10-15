@@ -108,19 +108,19 @@
       }
     },
     {
-      "path": "raw/discovery/homepage.html",
-      "sha256": "11f4d786cd429168a990408fb868afb886cca4c7c72ec25cc6e003300b4be987",
       "url": "https://yuc.wiki/",
       "httpStatus": 200,
-      "retrievedAt": "2026-09-18T02:26:45+00:00",
-      "etag": "\"6aa84f0e-6f95\"",
-      "lastModified": "Mon, 14 Sep 2026 19:46:22 GMT",
+      "retrievedAt": "2026-10-15T17:00:20+00:00",
+      "etag": "\"6ad0e17e-6f8a\"",
+      "lastModified": "Thu, 15 Oct 2026 14:21:50 GMT",
       "contentType": "text/html; charset=utf-8",
       "transport": {
         "tlsVerified": true,
-        "route": "github-pages",
-        "connectAddress": "185.199.108.153"
-      }
+        "route": "dns",
+        "connectAddress": null
+      },
+      "path": "raw/discovery/homepage.html",
+      "sha256": "b734f06e00ae5be52496025b6516099f4019f91505b96ec95ee41e2adfc2cb3c"
     },
     {
       "path": "raw/discovery/robots.txt",
@@ -623,7 +623,7 @@
       "title": "2026年10月新番表",
       "jsonPath": "pages/202610.json",
       "rawHtmlPath": "raw/202610.html",
-      "htmlSha256": "6fcb1889c5a94709d88582e0388e3a08b6853020360c17b24debc5faf19076a4",
+      "htmlSha256": "e88ff8a2a93b7b3ba2906474173dde2996c720a490d60833c058822d6f9cb4c4",
       "counts": {
         "introductions": 69,
         "lineup": 72,
@@ -640,7 +640,7 @@
       "title": "長門番堂\nYuc's Anime List",
       "jsonPath": "pages/index.json",
       "rawHtmlPath": "raw/index.html",
-      "htmlSha256": "49910521020aca10f35570711b9ced6b9389ec6bfde395d8b68c6f8f6473f868",
+      "htmlSha256": "11a59bdb21db3c9df8ecf1cca616b0639701ac77d42760491f2f44d9cdeb8993",
       "counts": {
         "introductions": 0,
         "lineup": 0,
@@ -674,11 +674,11 @@
       "title": "新番卫星观测站",
       "jsonPath": "pages/new.json",
       "rawHtmlPath": "raw/new.html",
-      "htmlSha256": "c9a58bacfe9918aaa768f68b78576f63baed5121bf196f03f43314595857c386",
+      "htmlSha256": "84facfe46074d6a404492358666e96465b76c2276d6dde7c6b5e4edc18f04065",
       "counts": {
         "introductions": 0,
         "lineup": 0,
-        "previews": 123,
+        "previews": 126,
         "specials": 0,
         "movies": 0
       },
@@ -705,7 +705,7 @@
   "totals": {
     "introductions": 1637,
     "lineup": 1174,
-    "previews": 147,
+    "previews": 150,
     "specials": 366,
     "movies": 76
   }
