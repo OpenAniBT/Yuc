@@ -674,11 +674,11 @@
       "title": "新番卫星观测站",
       "jsonPath": "pages/new.json",
       "rawHtmlPath": "raw/new.html",
-      "htmlSha256": "84facfe46074d6a404492358666e96465b76c2276d6dde7c6b5e4edc18f04065",
+      "htmlSha256": "7e9e0ff8ae4b9b9f0b5d16a3ead66ce8a666361edc8bf1dd25cb32e63e51b708",
       "counts": {
         "introductions": 0,
         "lineup": 0,
-        "previews": 126,
+        "previews": 129,
         "specials": 0,
         "movies": 0
       },
@@ -705,7 +705,7 @@
   "totals": {
     "introductions": 1637,
     "lineup": 1174,
-    "previews": 150,
+    "previews": 153,
     "specials": 366,
     "movies": 76
   }
