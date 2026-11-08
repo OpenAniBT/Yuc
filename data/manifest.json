@@ -606,7 +606,7 @@
       "title": "2026年7月新番表",
       "jsonPath": "pages/202607.json",
       "rawHtmlPath": "raw/202607.html",
-      "htmlSha256": "16e48a363b89c0cbeac7b772b771f61acc12061dcc7b4429a55a965566777f43",
+      "htmlSha256": "654e66ce3a21a0861a9b20c94f1310b810fcde5f468dbfa5c3a8048cc23f2797",
       "counts": {
         "introductions": 66,
         "lineup": 80,
@@ -674,11 +674,11 @@
       "title": "新番卫星观测站",
       "jsonPath": "pages/new.json",
       "rawHtmlPath": "raw/new.html",
-      "htmlSha256": "7e9e0ff8ae4b9b9f0b5d16a3ead66ce8a666361edc8bf1dd25cb32e63e51b708",
+      "htmlSha256": "744b5560712d95bd4e05f349ace98c97d41d7ea4be58c6137941bdc7e1d222da",
       "counts": {
         "introductions": 0,
         "lineup": 0,
-        "previews": 129,
+        "previews": 138,
         "specials": 0,
         "movies": 0
       },
@@ -705,7 +705,7 @@
   "totals": {
     "introductions": 1637,
     "lineup": 1174,
-    "previews": 153,
+    "previews": 162,
     "specials": 366,
     "movies": 76
   }
